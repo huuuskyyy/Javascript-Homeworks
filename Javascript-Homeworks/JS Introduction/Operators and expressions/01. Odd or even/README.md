@@ -1,0 +1,2 @@
+Write an expression that checks if given integer is
+odd or even
