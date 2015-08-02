@@ -1,0 +1,4 @@
+Write a script that finds the maximal increasing
+sequence in an array. 
+</br>Example:
+{3, 2, 3, 4, 2, 2, 4} -> {2, 3, 4}.
