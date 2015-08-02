@@ -1,0 +1,2 @@
+Write a script that finds the maximal sequence of
+equal elements in an array
