@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tag cloud</title>
+    <script src="scripts/generateTagCloud.js"></script>
+</head>
+<body>
+    <script>
+    var tags = ["wordpress", "javascript","asp.net", "js",
+               "ASP.NET MVC","html", ".net", ".net", "css",
+                "xaml", "js","cms","web", "http",
+                "asp.net MVC", "ASP.NET MVC",
+               "wp", "javascript", "js","js","js", "cms",
+               "javascript", "http", "http", "CMS"
+              ];
+
+    document.body.style.width = '500px';
+    document.body.style.height = '500px';
+    var minFont = 17;
+    var maxFont = 42;
+    var tagCloud = generateTagCloud(tags, minFont, maxFont);
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+﻿<!--Write a function that checks if a given object contains a given property-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Points and lines</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+
+	    function checkContainsProp(target, propToCheck) {
+
+	        for (var prop in target) {
+
+	            if (prop === propToCheck) {
+	                return true;
+	            }
+	        }
+	        return false;
+	    }
+
+	    var testObject = {
+	        name: "tester", age: 999, gender: "my", array: [5, 1, 6, 3],
+	        toString: function () { return "name :" + this.name + ",\n age: " + this.age + ", gender: " + this.gender + ", array: [" + this.array + "]"; }
+	    }
+
+	    jsConsole.writeLine("A test object is created with the following properties and values");
+	    jsConsole.writeLine("Test Object : " + testObject);
+	    jsConsole.writeLine("");
+
+	    jsConsole.writeLine("Let's check, if the Test Object contains property 'name'");
+	    jsConsole.writeLine("Result - " + checkContainsProp(testObject, "name"));
+	    jsConsole.writeLine("");
+
+	    jsConsole.writeLine("Let's check, if the Test Object contains property 'age'");
+	    jsConsole.writeLine("Result - " + checkContainsProp(testObject, "age"));
+	    jsConsole.writeLine("");
+
+	    jsConsole.writeLine("Let's check, if the Test Object contains property 'array'");
+	    jsConsole.writeLine("Result - " + checkContainsProp(testObject, "array"));
+	    jsConsole.writeLine("");
+
+	    jsConsole.writeLine("Let's check, if the Test Object contains property 'length'");
+	    jsConsole.writeLine("Result - " + checkContainsProp(testObject, "length"));
+
+	</script>
+</body>
+</html>
+
+

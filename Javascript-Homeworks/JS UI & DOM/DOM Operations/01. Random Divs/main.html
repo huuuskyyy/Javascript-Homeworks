@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Random divs</title>
+</head>
+<body>
+    <button id="create-div-button" onclick="addNewDiv()">Add div</button>
+    <script>
+    function addNewDiv(){
+
+        var div  = document.createElement('div');
+        var innerStrong = document.createElement('strong');
+        innerStrong.innerHTML = 'div';
+        div.appendChild(innerStrong);
+        div.style.width = getRandomPixelsInRange(20,100);
+        div.style.height = getRandomPixelsInRange(20,100);
+        div.style.backgroundColor = randomColor();
+        div.style.color = randomColor();
+        div.style.display = 'inline-block';
+        div.style.position = 'absolute';
+        div.style.top = getRandomPixelsInRange(0,600);
+        div.style.left = getRandomPixelsInRange(0,1000);
+        div.style.borderRadius =  getRandomPixelsInRange(1,20);
+        div.style.borderColor = randomColor();
+        div.style.borderWidth =  getRandomPixelsInRange(1,20);
+        div.style.borderStyle = 'solid';
+        document.body.appendChild(div);
+    }
+
+    function getRandomPixelsInRange (min, max) {
+
+        var pixels = Math.floor(Math.random() *(max-min+1))+min;
+        pixels+="px";
+
+        return pixels;
+    }
+
+    function randomColor() {
+
+        var colors = '0123456789ABCDEF';
+        var color = '#';
+
+        for(var i = 0; i<6; i++)
+        {
+            var pos = Math.floor(Math.random()*16);
+            color +=colors[pos];
+        }
+
+        return color
+    }
+    </script>
+</body>
+</html>

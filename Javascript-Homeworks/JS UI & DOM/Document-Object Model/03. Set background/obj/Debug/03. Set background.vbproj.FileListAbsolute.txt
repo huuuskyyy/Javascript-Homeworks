@@ -1,0 +1,9 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\03. Set background\bin\_03.Set_background.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\03. Set background\bin\_03.Set_background.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\03. Set background\bin\_03.Set_background.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\03. Set background\bin\_03.Set_background.xml
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\03. Set background\obj\Debug\_03.Set_background.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\03. Set background\obj\Debug\03. Set background.vbproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\03. Set background\obj\Debug\_03.Set_background.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\03. Set background\obj\Debug\_03.Set_background.xml
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\03. Set background\obj\Debug\_03.Set_background.pdb

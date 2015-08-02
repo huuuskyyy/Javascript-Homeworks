@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\02. Twitter\bin\_02.Twitter.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\02. Twitter\bin\_02.Twitter.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\02. Twitter\bin\_02.Twitter.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\02. Twitter\obj\Debug\_02.Twitter.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\02. Twitter\obj\Debug\_02.Twitter.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\02. Twitter\obj\Debug\02. Twitter.csprojResolveAssemblyReference.cache

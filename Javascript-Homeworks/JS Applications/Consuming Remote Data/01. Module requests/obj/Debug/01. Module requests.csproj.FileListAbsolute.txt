@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\01. Module requests\bin\_01.Module_requests.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\01. Module requests\bin\_01.Module_requests.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\01. Module requests\bin\_01.Module_requests.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\01. Module requests\obj\Debug\01. Module requests.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\01. Module requests\obj\Debug\_01.Module_requests.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\01. Module requests\obj\Debug\_01.Module_requests.pdb

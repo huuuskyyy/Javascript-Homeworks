@@ -1,0 +1,75 @@
+﻿<!--Write a function that makes a deep copy of an object
+The function should work for both primitive and reference types
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Deep copy</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+
+	    function copy(target) {
+
+	        if (Object.prototype.toString.call(target) === "[object Array]") {
+
+	            var newObject = [];
+	            for (var i = 0; i < target.length; i++) {
+	                newObject[i] = copy(target[i]);
+	            }
+
+	            return newObject;
+
+	        } else if (typeof (target) === "object") {
+	            var newObject = new Object();
+
+	            for (var targetProp in target) {
+
+	                newObject[targetProp] = copy(target[targetProp]);
+	            }
+
+	            return newObject;
+	        }
+
+	        return target;
+	    }
+
+	    var testObject = {
+	        name: "tester", age: 999, gender: "my", array: [5, 1, 6, 3],
+	        toString: function () { return "name: " + this.name + ",\n age: " + this.age + ", gender: " + this.gender + ", array: [" + this.array + "]"; }
+	    }
+
+	    jsConsole.writeLine("This is a test object, which contains string, number and array");
+	    jsConsole.writeLine("FIRST TEST OBJECT");
+	    jsConsole.writeLine(testObject);
+	    jsConsole.writeLine("");
+
+	    jsConsole.writeLine("A second object is created, which is copy of the first one");
+	    jsConsole.writeLine("SECOND TEST OBJECT");
+	    var testObject2 = copy(testObject);
+
+	    jsConsole.writeLine("This is the second test object printed. It has the same values");
+	    jsConsole.writeLine(testObject2);
+	    jsConsole.writeLine("");
+
+	    jsConsole.writeLine("Now we will change the values and the first test obejct properties and check, if this will affect the second one");
+	    testObject.name = "Not Tester";
+	    testObject.age = 0;
+	    testObject.gender = "none";
+	    testObject.array = [0, 0, 0, 0, 0];
+	    jsConsole.writeLine("First test obejct new properties' values");
+	    jsConsole.writeLine(testObject);
+
+	    jsConsole.writeLine("");
+	    jsConsole.writeLine("Thie second test obejct still keeps the same values");
+	    jsConsole.writeLine(testObject2);
+
+	</script>
+</body>
+</html>
+
+

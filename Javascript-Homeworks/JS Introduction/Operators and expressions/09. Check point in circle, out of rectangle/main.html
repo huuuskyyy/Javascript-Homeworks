@@ -1,0 +1,38 @@
+﻿<!--Write an expression that checks for given point (x, y) if it is within the circle K( (1,1), 3) 
+and out of the rectangle R(top=1, left=-1, width=6, height=2)-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Point within circle, but out of rectangle</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>Enter point's X and Y coordinates. The circle is at K((1,1),3) and the rectangle is at (1,-1)(7,-1)(1,-3)(7,-3)</p>
+    <label for="x">Enter X</label>
+    <input type="text" id="x"/>
+    <label for="y">Enter Y</label>
+    <input type="text" id="y"/>
+    <button onclick = "CheckPoint()">Find the answer</button>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    function CheckPoint() {
+	        var xCor = jsConsole.readFloat("#x"),
+                yCor = jsConsole.readFloat("#y"),
+                xCircle = 1,
+                yCircle = 1,
+                radiusCircle = 3,
+                xRectLeft = 1,
+                yRectTop = -1,
+                xRectRight = 7,
+                yRectBottom = -3,
+                checkCircle = Math.sqrt(Math.pow((xCor - xCircle), 2) + Math.pow((yCor - yCircle), 2)) <= radiusCircle,
+                checkRectangle = xCor < xRectLeft || xCor > xRectRight || yCor > yRectTop || yCor < yRectBottom;
+
+	        jsConsole.writeLine("The point is inside the circle - " + checkCircle);
+	        jsConsole.writeLine("The point is outside the rectangle - " + checkRectangle);
+	    }
+	</script>
+</body>
+</html>

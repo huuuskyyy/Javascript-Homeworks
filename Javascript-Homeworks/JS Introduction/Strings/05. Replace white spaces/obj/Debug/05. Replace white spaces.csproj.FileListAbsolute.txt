@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\05. Replace white spaces\bin\_05.Replace_white_spaces.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\05. Replace white spaces\bin\_05.Replace_white_spaces.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\05. Replace white spaces\obj\Debug\_05.Replace_white_spaces.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\05. Replace white spaces\obj\Debug\_05.Replace_white_spaces.pdb

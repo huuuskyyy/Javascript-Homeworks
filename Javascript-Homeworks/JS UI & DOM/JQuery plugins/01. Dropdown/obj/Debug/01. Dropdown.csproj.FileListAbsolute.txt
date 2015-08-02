@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery plugins\01. Dropdown\bin\_01.Dropdown.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery plugins\01. Dropdown\bin\_01.Dropdown.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery plugins\01. Dropdown\bin\_01.Dropdown.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery plugins\01. Dropdown\obj\Debug\01. Dropdown.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery plugins\01. Dropdown\obj\Debug\_01.Dropdown.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery plugins\01. Dropdown\obj\Debug\_01.Dropdown.pdb

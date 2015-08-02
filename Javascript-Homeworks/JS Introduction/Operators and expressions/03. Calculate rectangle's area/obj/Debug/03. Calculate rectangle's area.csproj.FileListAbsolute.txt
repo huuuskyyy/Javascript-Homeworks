@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\03. Calculate rectangle's area\bin\_03.Calculate_rectangle_s_area.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\03. Calculate rectangle's area\bin\_03.Calculate_rectangle_s_area.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\03. Calculate rectangle's area\obj\Debug\_03.Calculate_rectangle_s_area.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\03. Calculate rectangle's area\obj\Debug\_03.Calculate_rectangle_s_area.pdb

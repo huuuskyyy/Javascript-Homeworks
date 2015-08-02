@@ -1,0 +1,88 @@
+﻿<!--Write a script that parses an URL address given in the format:
+and extracts from it the [protocol], [server] and [resource] elements. Return the elements in a JSON object.-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Parse URL</title>
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+        <script>
+
+            var web = 'http://www.devbg.org/forum/index.php',
+                result = extractWebElements(web);
+
+            for (var item in result) {
+                jsConsole.writeLine(item + " - " + result[item]);
+            }
+
+            function extractWebElements(web) {
+
+                var webObject = {};
+
+                extractProtocol(web, webObject);
+                extractServer(web, webObject);
+                extractResource(web, webObject);
+
+                return webObject;
+            }
+
+            function extractProtocol(page, obj) {
+
+                var temp = "";
+
+                for (var i = 0; i < page.length; i++) {
+
+                    if (page[i] === ":") {
+                        break;
+                    }
+
+                    temp += page[i];
+                }
+
+                obj.protocol = temp;
+
+            }
+
+            function extractServer(page, obj) {
+
+                var temp = "",
+                    toWrite = false;
+
+                for (var i = 0; i < page.length; i++) {
+
+                    if (page[i] === "/" && (page[i - 1] !== "/" && page[i + 1] !== "/")) {
+                        break;
+                    }
+                    if (toWrite) {
+                        temp += page[i];
+
+                    }
+                    if (page[i] === "/" && page[i - 1] === "/") {
+                        toWrite = true;
+                    }
+                }
+                obj.server = temp;
+            }
+
+            function extractResource(page, obj) {
+
+                var temp = "",
+                    toWrite = false;
+
+                for (var i = 0; i < page.length; i++) {
+
+                    if ((page[i] === "/" && page[i - 1] !== "/") && (page[i] === "/" && page[i + 1] !== "/")) {
+                        toWrite = true;
+                    }
+                    if (toWrite) {
+                        temp += page[i];
+                    }
+                }
+                obj.resource = temp;
+            }
+        </script>
+</body>
+</html>
+

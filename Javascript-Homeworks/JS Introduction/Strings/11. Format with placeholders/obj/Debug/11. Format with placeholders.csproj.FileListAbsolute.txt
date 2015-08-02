@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\11. Format with placeholders\bin\_11.Format_with_placeholders.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\11. Format with placeholders\bin\_11.Format_with_placeholders.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\11. Format with placeholders\obj\Debug\_11.Format_with_placeholders.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\11. Format with placeholders\obj\Debug\_11.Format_with_placeholders.pdb

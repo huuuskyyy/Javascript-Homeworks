@@ -1,0 +1,9 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Canvas\01. Drawings\bin\_01.Drawings.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Canvas\01. Drawings\bin\_01.Drawings.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Canvas\01. Drawings\bin\_01.Drawings.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Canvas\01. Drawings\bin\_01.Drawings.xml
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Canvas\01. Drawings\obj\Debug\_01.Drawings.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Canvas\01. Drawings\obj\Debug\01. Drawings.vbproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Canvas\01. Drawings\obj\Debug\_01.Drawings.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Canvas\01. Drawings\obj\Debug\_01.Drawings.xml
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Canvas\01. Drawings\obj\Debug\_01.Drawings.pdb

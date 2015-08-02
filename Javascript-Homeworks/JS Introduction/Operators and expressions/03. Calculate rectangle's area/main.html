@@ -1,0 +1,28 @@
+﻿<!--Write an expression that calculates rectangle’s area by given width and height-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Triangle's area</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>Enter triangle's width and height</p>
+    <label for="width">Width</label>
+    <input type="text" id="width"/>
+    <label for="height">Height</label>
+    <input type="text" id="height"/>
+    <button onclick = "CalculateTriangleArea()">Find the area</button>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    function CalculateTriangleArea() {
+	        var width = jsConsole.readFloat("#width"),
+                height = jsConsole.readFloat("#height"),
+                area = (width * height) / 2;
+
+	        jsConsole.writeLine("The area is " + area);
+	    }
+	</script>
+</body>
+</html>

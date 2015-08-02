@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Bulls and Cows</title>
+    <script src="libs/underscore.js"></script>
+    <link href="styles/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <img id="cow-pic" src="pics/cow.jpg" alt="Cow"/>
+    <div id="playfield">
+        <input type="text" id="user-input" />
+        <button id="checker" onclick="checkInput()">Check</button>
+        <div id="aside-buttons">
+            <button id="answer" onclick="showAnswer()">Show answer</button>
+            <button id="newGame" onclick="newGame()">New number</button>
+        </div>
+    </div>
+    <img id="bull-pic" src="pics/bull.jpeg" alt="Bull"/>
+    <div id="display"></div>
+    <h1>Leaderboard</h1>
+    <div id="scoreboard"></div>
+    <script src="scripts/game.js"></script>
+</body>
+</html>

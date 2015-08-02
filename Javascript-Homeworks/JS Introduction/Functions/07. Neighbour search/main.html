@@ -1,0 +1,49 @@
+﻿<!--Write a function that returns the index of the first element in array
+ that is bigger than its neighbors, or -1, if there’s no such element.-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First number bigger than neighbours</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>The script will check for the first occurence of a number that is bigger than its neighbours</p>
+    <label for="array">Enter numbers separated by coma <i>e.g. 5,7,2,1,5,76,3,1,1,5,1</i></label>
+    <input type="text" id="array"/>
+    <button onclick="checkNeighbours()">Check neighbours</button>
+    <br>
+    <br>
+    <br>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    function checkNeighbours() {
+	        var i,
+                array = jsConsole.read("#array").split(/[\s,.]+/),
+                position = -1;
+
+	        for (i = 0, length = array.length; i < length; i++) {
+	            array[i] = parseInt(array[i], 10);
+	        }
+
+	        for (i = 0, length = array.length; i < length; i++) {
+
+	            if (i !== 0 && i !== array.length - 1)
+	            {
+	                if (array[i] > array[i + 1] && array[i] > array[i - 1]) {
+	                    position = i;
+	                    break;
+	                }
+	            }
+	        }
+	        
+	        if (position === -1) {
+	            jsConsole.writeLine("No such element");
+	        } else {
+	            jsConsole.writeLine("The array " + array + " has such element at position " + position);
+	        }
+	    }
+	</script>
+</body>
+</html>

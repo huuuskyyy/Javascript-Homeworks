@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\05. Tree list\bin\_05.Tree_list.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\05. Tree list\bin\_05.Tree_list.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\05. Tree list\bin\_05.Tree_list.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\05. Tree list\obj\Debug\05. Tree list.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\05. Tree list\obj\Debug\_05.Tree_list.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\05. Tree list\obj\Debug\_05.Tree_list.pdb

@@ -1,0 +1,31 @@
+﻿<!--Write a program that extracts from a given text all palindromes-->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Extract palindromes</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <br />
+    <script src="js-console.js"></script>
+    <script>
+        var text = "This email is valid ABBA valid_email@email.com and this is not_valid@@email.com, lamal another example of valid email is secondvalid@mail.info exe and not valid email notvalid@email..info",
+            words = text.split(/[\s,]+/),
+            palindromes = [];
+
+        for (var item in words) {
+
+            var reversed = words[item];
+            reversed = words[item].split("").reverse().join("");
+
+            if (words[item] === reversed) {
+
+                palindromes.push(reversed);
+            }
+        }
+        jsConsole.writeLine("Found palindromes :");
+        jsConsole.writeLine(palindromes);
+    </script>
+</body>
+</html>

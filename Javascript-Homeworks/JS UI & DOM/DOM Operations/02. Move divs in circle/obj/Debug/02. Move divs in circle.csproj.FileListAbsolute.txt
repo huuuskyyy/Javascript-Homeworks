@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\02. Move divs in circle\bin\_02.Move_divs_in_circle.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\02. Move divs in circle\bin\_02.Move_divs_in_circle.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\02. Move divs in circle\bin\_02.Move_divs_in_circle.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\02. Move divs in circle\obj\Debug\_02.Move_divs_in_circle.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\02. Move divs in circle\obj\Debug\_02.Move_divs_in_circle.pdb

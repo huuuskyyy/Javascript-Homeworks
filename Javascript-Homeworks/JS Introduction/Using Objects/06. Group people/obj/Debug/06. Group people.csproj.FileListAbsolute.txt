@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\06. Group people\bin\_06.Group_people.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\06. Group people\bin\_06.Group_people.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\06. Group people\obj\Debug\_06.Group_people.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\06. Group people\obj\Debug\_06.Group_people.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\06. Group people\obj\Debug\06. Group people.csprojResolveAssemblyReference.cache

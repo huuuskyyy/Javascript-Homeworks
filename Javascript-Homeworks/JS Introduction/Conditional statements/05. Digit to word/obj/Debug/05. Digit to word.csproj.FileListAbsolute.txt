@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\05. Digit to word\bin\_05.Digit_to_word.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\05. Digit to word\bin\_05.Digit_to_word.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\05. Digit to word\obj\Debug\_05.Digit_to_word.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\05. Digit to word\obj\Debug\_05.Digit_to_word.pdb

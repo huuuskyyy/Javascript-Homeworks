@@ -1,0 +1,9 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\01. Select nested divs\bin\_01.Select_nested_divs.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\01. Select nested divs\bin\_01.Select_nested_divs.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\01. Select nested divs\bin\_01.Select_nested_divs.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\01. Select nested divs\bin\_01.Select_nested_divs.xml
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\01. Select nested divs\obj\Debug\_01.Select_nested_divs.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\01. Select nested divs\obj\Debug\01. Select nested divs.vbproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\01. Select nested divs\obj\Debug\_01.Select_nested_divs.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\01. Select nested divs\obj\Debug\_01.Select_nested_divs.xml
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\01. Select nested divs\obj\Debug\_01.Select_nested_divs.pdb

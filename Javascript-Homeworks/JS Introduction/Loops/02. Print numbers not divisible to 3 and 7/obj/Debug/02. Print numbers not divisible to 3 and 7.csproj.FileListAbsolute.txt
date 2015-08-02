@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Loops\02. Print numbers not divisible to 3 and 7\bin\_02.Print_numbers_not_divisible_to_3_and_7.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Loops\02. Print numbers not divisible to 3 and 7\bin\_02.Print_numbers_not_divisible_to_3_and_7.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Loops\02. Print numbers not divisible to 3 and 7\obj\Debug\_02.Print_numbers_not_divisible_to_3_and_7.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Loops\02. Print numbers not divisible to 3 and 7\obj\Debug\_02.Print_numbers_not_divisible_to_3_and_7.pdb

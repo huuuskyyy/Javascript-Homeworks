@@ -1,0 +1,88 @@
+﻿<!--Write functions for working with shapes in  standard Planar coordinate system
+Points are represented by coordinates P(X, Y)
+Lines are represented by two points, marking their beginning and ending
+L(P1(X1,Y1), P2(X2,Y2))
+Calculate the distance between two points
+Check if three segment lines can form a triangle
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Points and lines</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <br />
+    <script src="js-console.js"></script>
+    <script>
+
+        var i;
+
+        function createPoint(x, y) {
+
+            return {
+                x: x,
+                y: y,
+                toString: function () {
+                    return "(" + this.x + "," + this.y + ")";
+                }
+            }
+        }
+
+        function createLine(point1, point2) {
+
+            return {
+                point1: point1,
+                point2: point2,
+                toString: function () {
+                    return "Line's coordinates are " + this.point1 + ", " + this.point2;
+                }
+            }
+        }
+
+        var points = [pointOne = createPoint(5, 4),
+                         pointTwo = createPoint(1, 7),
+                         pointThree = createPoint(4, 2),
+                         pointFour = createPoint(-1, 2),
+                         pointFive = createPoint(1, -2),
+                         pointSix = createPoint(-1, 6)];
+
+        jsConsole.writeLine("We have the following points");
+        jsConsole.writeLine(points);
+        jsConsole.writeLine("");
+        jsConsole.writeLine("The points will be assigned to 3 lines");
+
+        var lines = [lineOne = createLine(points[0], points[1]),
+                      lineTwo = createLine(points[2], points[3]),
+                      lineThree = createLine(points[4], points[5])];
+
+        var lengths = [];
+
+        jsConsole.writeLine("");
+
+        for (i = 0, length = lines.length; i < length; i++) {
+
+            lengths.push(calculateDistancePoints(lines[i]));
+            jsConsole.writeLine(lines[i]);
+            jsConsole.writeLine("The distance between the points in the line is " + lengths[i]);
+        }
+
+        function calculateDistancePoints(line) {
+
+            var distance = Math.sqrt(Math.pow((line.point2.x - line.point1.x), 2) + Math.pow((line.point2.y - line.point1.y), 2));
+            return distance;
+        }
+
+        jsConsole.writeLine("");
+        jsConsole.writeLine("To check if the lines can form a triangle we must find if a+b>c, a+c>b and b+c>a");
+        jsConsole.writeLine("Let's name our lines as A, B and C in the order they appeared earlier");
+        jsConsole.writeLine("A+B>C - " + ((lengths[0] + lengths[1]) > lengths[2]));
+        jsConsole.writeLine("A+C>B - " + ((lengths[0] + lengths[2]) > lengths[1]));
+        jsConsole.writeLine("C+B>A - " + ((lengths[2] + lengths[1]) > lengths[0]));
+        jsConsole.writeLine("If at least one of the inequalities is false, the lines can't form triangle");
+        jsConsole.writeLine("");
+        jsConsole.writeLine("You can edit the code and test it with different cases");
+    </script>
+</body>
+</html>

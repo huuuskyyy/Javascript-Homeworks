@@ -1,0 +1,24 @@
+﻿body, html, div, a, p, h1 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align:center;
+}
+div:first-of-type {
+    
+    display: inline-block;
+}
+#head-div {
+    border: 5px dotted rgba(91, 163, 217, 0.46);
+    border-radius: 10px;
+}
+div {
+    width:30%;
+    border:1px solid black;
+    display:inline-block;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:2%;
+}
+

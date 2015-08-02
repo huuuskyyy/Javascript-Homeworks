@@ -1,0 +1,23 @@
+﻿<!--Write a script that allocates array of 20 integers and initializes each element by its index multiplied by 5. Print the obtained array on the console-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array of 20 elements</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <br>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    var arr = new Array(20),
+	        i;
+
+	    for (i = 0, length = arr.length; i < length; i++) {
+	        arr[i] = i * 5;
+	        jsConsole.writeLine(i + 1 + " element of the array is " + arr[i]);
+	    }
+	</script>
+</body>
+</html>

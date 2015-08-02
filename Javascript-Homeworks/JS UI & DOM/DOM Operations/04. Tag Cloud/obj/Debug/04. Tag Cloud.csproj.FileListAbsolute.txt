@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\04. Tag Cloud\bin\_04.Tag_Cloud.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\04. Tag Cloud\bin\_04.Tag_Cloud.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\04. Tag Cloud\bin\_04.Tag_Cloud.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\04. Tag Cloud\obj\Debug\_04.Tag_Cloud.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\04. Tag Cloud\obj\Debug\_04.Tag_Cloud.pdb

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Simple table handlebars template</title>
+    <script src="scripts/handlebars-v1.3.0.js"></script>
+    <style>
+        table {
+            border-collapse:collapse;
+        }
+        tr, td, th {
+            border: 1px solid black;
+        }
+        th {
+            background: #bfbaba;
+            color:white;
+        }
+        tr:nth-child(2n+1 ){
+            background: #e6e6e6;
+        }
+    </style>
+</head>
+<body>
+    <div id="handlebars-table-output"></div>
+    <script id="table-template" type="text/table-handlebars-template">
+        <table id="table">
+            <tr>
+                <th>№</th>
+                <th>Title</th>
+                <th>Date 1</th>
+                <th>Date 2</th>
+            </tr>
+            {{#tableCells}}
+            <tr>
+                <td>{{number}}</td>
+                <td>{{title}}</td>
+                <td>{{date1}}</td>
+                <td>{{date2}}</td>
+            </tr>
+            {{/tableCells}}
+        </table>
+    </script>
+    <script src="scripts/sample-table.js"></script>
+</body>
+</html>

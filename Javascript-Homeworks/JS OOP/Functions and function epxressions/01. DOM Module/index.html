@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Module for DOM operations</title>
+    <style>
+        #parent {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+
+        div div {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+    </div>
+    <ul>
+        <li><a>First</a></li>
+        <li><a>Second</a></li>
+        <li><a>Third</a></li>
+        <li><a>Fourth</a></li>
+        <li><a>Fifth</a></li>
+    </ul>
+    <ul id="buffer">
+    </ul>
+    <script src="DOM_module.js"></script>
+    <script>
+        //this will add small red div inside the green one
+        domModule.appendChild('div', '#parent');
+
+        //this will remove the li element with anchor 'First'
+        domModule.removeChild("li:first-child", "ul");
+
+        //this will add click event on the green div
+        domModule.addHandler('#parent', 'click',
+                     function () { alert("Clicked") });
+
+        //create a buffer
+        var exampleBuffer = domModule.createBuffer('#buffer');
+
+        //fill the buffer with 100 elements
+        //once filled the elements will be appended to the DOM
+        //you can see the result
+        for(var i = 0; i< 101; i++) {
+            var li = document.createElement('li');
+            li.innerHTML = i;
+            domModule.addElementsToBuffer(exampleBuffer, li);
+        }
+
+        var div = domModule.getElement('div div');
+
+
+    </script>
+</body>
+</html>

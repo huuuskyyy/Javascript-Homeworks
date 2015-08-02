@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\01. Exchange values\bin\_01.Exchange_values.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\01. Exchange values\bin\_01.Exchange_values.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\01. Exchange values\obj\Debug\01. Exchange values.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\01. Exchange values\obj\Debug\_01.Exchange_values.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\01. Exchange values\obj\Debug\_01.Exchange_values.pdb

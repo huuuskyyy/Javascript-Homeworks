@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\02. Reverse digits\bin\_02.Reverse_digits.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\02. Reverse digits\bin\_02.Reverse_digits.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\02. Reverse digits\obj\Debug\_02.Reverse_digits.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\02. Reverse digits\obj\Debug\_02.Reverse_digits.pdb

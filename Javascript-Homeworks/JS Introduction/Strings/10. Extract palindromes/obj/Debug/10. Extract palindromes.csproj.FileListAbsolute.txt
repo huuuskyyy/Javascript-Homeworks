@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\10. Extract palindromes\bin\_10.Extract_palindromes.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\10. Extract palindromes\bin\_10.Extract_palindromes.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\10. Extract palindromes\obj\Debug\_10.Extract_palindromes.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\10. Extract palindromes\obj\Debug\_10.Extract_palindromes.pdb

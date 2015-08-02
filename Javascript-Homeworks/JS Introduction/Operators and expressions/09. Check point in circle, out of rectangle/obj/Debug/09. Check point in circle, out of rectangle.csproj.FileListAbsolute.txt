@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\09. Check point in circle, out of rectangle\bin\_09.Check_point_in_circle__out_of_rectangle.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\09. Check point in circle, out of rectangle\bin\_09.Check_point_in_circle__out_of_rectangle.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\09. Check point in circle, out of rectangle\obj\Debug\_09.Check_point_in_circle__out_of_rectangle.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\09. Check point in circle, out of rectangle\obj\Debug\_09.Check_point_in_circle__out_of_rectangle.pdb

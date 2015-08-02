@@ -1,0 +1,74 @@
+﻿<!--Write a function that checks if the element at given position in given array of
+ integers is bigger than its two neighbors (when such exist)-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Number bigger than neighbours</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>The script will check if a number at specific position is bigger than its neighbours</p>
+    <label for="array">Enter numbers separated by coma <i>e.g. 5,7,2,1,5,76,3,1,1,5,1</i></label>
+    <input type="text" id="array"/>
+    <label for="position">Enter the position you want to check</label>
+    <input type="text" id="position"/>
+    <button onclick="readInput()">Check neighbours</button>
+    <br>
+    <br>
+    <label for="test">If you want you can run tests by clicking on the button</label>
+    <button onclick="runTests()">Run tests</button>
+    <br>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    function readInput() {
+	        var i,
+                array = jsConsole.read("#array").split(/[\s,.]+/);
+
+	        for (i = 0, length = array.length; i < length; i++) {
+	            array[i] = parseInt(array[i], 10);
+	        }
+
+	        var position = parseInt(jsConsole.read("#position"), 10);
+	        checkNeighbours(array, position);
+	    }
+
+	    function checkNeighbours(arr, pos) {
+	        if (arr.length < 2) {
+	            jsConsole.writeLine("No neighbours to compare");
+	        } else if (pos > arr.length - 1 || pos < 0) {
+	            jsConsole.writeLine("Invalid position");
+	        } else {
+	            switch (pos) {
+	                case 0:
+	                    jsConsole.writeLine("Position 0. Only one neighbour. Number is bigger than its neighbour - " + (arr[pos] > arr[pos + 1]));
+	                    break;
+	                case arr.length - 1:
+	                    jsConsole.writeLine("Last position. Only one neighbour. Number is bigger than its neighbour - " + (arr[pos] > arr[pos - 1]));
+	                    break;
+	                default:
+	                    jsConsole.writeLine("Position " + pos + ". Two neighbours. Number is bigger than its neighbours  - " + (arr[pos] > arr[pos - 1] && arr[pos] > arr[pos + 1]));
+	                    break;
+	            }
+	        }
+	    }
+
+	    function runTests() {
+
+	        var array = [5, 7, 2, 1, 5, 76, 3, 1, 1, 5, 1],
+                i;
+
+	        jsConsole.writeLine("The test array is " + array);
+	        jsConsole.writeLine("The test will be run for every single position");
+
+	        for ( i = 0; i < array.length; i++) {
+
+	            jsConsole.writeLine(" ");
+	            checkNeighbours(array, i);
+	        }
+	        jsConsole.writeLine(" ");
+	    }
+	</script>
+</body>
+</html>

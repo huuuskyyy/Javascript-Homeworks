@@ -1,0 +1,25 @@
+﻿<!--Create null, undefined variables and try typeof on them-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Typeof null/unidentified</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>Typeof on null and unidentified variables</p>
+    <br/>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    var thisIsUnidentified;
+	    jsConsole.writeLine("var thisIsUnidentified will show typeof " + typeof (thisIsUnidentified) + "\n");
+	    jsConsole.writeLine();
+
+	    var emptyString = null;
+	    jsConsole.writeLine("var emptyString = null will show typeof " + typeof (emptyString) + ("      WAT !?"));
+	    jsConsole.writeLine();
+	</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿<!--Try typeof on all variables you created-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Typeof</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>Typeof on different varialables</p>
+    <br/>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    var arrayLiteral = ["one", "two", "three"];
+	    jsConsole.writeLine("var arrayLiteral = [\"one\", \"two\", \"three\"] is typeof " + typeof (arrayLiteral) + "\n");
+	    jsConsole.writeLine();
+
+	    var booleanLiteral = true;
+	    jsConsole.writeLine("var booleanLiteral = true is typeof " + typeof (booleanLiteral));
+	    jsConsole.writeLine();
+    
+	    var integerLiteral = 100;
+	    jsConsole.writeLine("var integerLiteral = 100 is typeof " + typeof (integerLiteral));
+	    jsConsole.writeLine();
+
+	    var floatingLiteral = 4.5234;
+	    jsConsole.writeLine("var floatingLiteral = 4.5234 is typeof " + typeof (floatingLiteral));
+	    jsConsole.writeLine();
+
+	    var car = { brand: "Reno", model: "Laguna", year: "2002" };
+	    jsConsole.writeLine("var car = { brand: \"Reno\", model: \"Laguna\", year: \"2002\" } is typeof " + typeof (car));
+	    jsConsole.writeLine();
+
+	    var stringLiteral = "I am a string";
+	    jsConsole.writeLine("var stringLiteral = \"I am a string\" is typeof " + typeof (stringLiteral));
+	    jsConsole.writeLine();
+	</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\01. Reverse string\bin\_01.Reverse_string.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\01. Reverse string\bin\_01.Reverse_string.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\01. Reverse string\obj\Debug\01. Reverse string.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\01. Reverse string\obj\Debug\_01.Reverse_string.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\01. Reverse string\obj\Debug\_01.Reverse_string.pdb

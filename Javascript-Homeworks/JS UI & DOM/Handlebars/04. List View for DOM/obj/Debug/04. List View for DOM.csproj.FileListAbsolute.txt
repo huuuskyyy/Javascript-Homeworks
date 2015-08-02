@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Handlebars\04. List View for DOM\bin\_04.List_View_for_DOM.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Handlebars\04. List View for DOM\bin\_04.List_View_for_DOM.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Handlebars\04. List View for DOM\bin\_04.List_View_for_DOM.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Handlebars\04. List View for DOM\obj\Debug\_04.List_View_for_DOM.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Handlebars\04. List View for DOM\obj\Debug\_04.List_View_for_DOM.pdb

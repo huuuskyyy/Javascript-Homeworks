@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\03. Deep copy object\bin\_03.Deep_copy_object.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\03. Deep copy object\bin\_03.Deep_copy_object.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\03. Deep copy object\obj\Debug\_03.Deep_copy_object.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\03. Deep copy object\obj\Debug\_03.Deep_copy_object.pdb

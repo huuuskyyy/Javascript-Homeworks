@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Underscore JS\01.First name before the last name\bin\01.First name before the last name.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Underscore JS\01.First name before the last name\bin\01.First name before the last name.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Underscore JS\01.First name before the last name\bin\01.First name before the last name.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Underscore JS\01.First name before the last name\obj\Debug\01.First name before the last name.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Underscore JS\01.First name before the last name\obj\Debug\01.First name before the last name.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Underscore JS\01.First name before the last name\obj\Debug\01.First name before the last name.pdb

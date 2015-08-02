@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\04. Change background\bin\_04.Change_background.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\04. Change background\bin\_04.Change_background.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\04. Change background\bin\_04.Change_background.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\04. Change background\obj\Debug\_04.Change_background.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\04. Change background\obj\Debug\_04.Change_background.pdb

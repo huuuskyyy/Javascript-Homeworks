@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Web Storagaes\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Web Storagaes\WebApplication1\bin\WebApplication1.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Web Storagaes\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Web Storagaes\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Web Storagaes\WebApplication1\obj\Debug\WebApplication1.pdb

@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\04. Check contains property\bin\_04.Check_contains_property.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\04. Check contains property\bin\_04.Check_contains_property.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\04. Check contains property\obj\Debug\_04.Check_contains_property.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\04. Check contains property\obj\Debug\_04.Check_contains_property.pdb

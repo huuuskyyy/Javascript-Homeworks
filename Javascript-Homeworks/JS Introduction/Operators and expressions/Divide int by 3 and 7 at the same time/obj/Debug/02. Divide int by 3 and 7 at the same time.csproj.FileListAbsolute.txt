@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\Divide int by 3 and 7 at the same time\bin\Divide int by 3 and 7 at the same time.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\Divide int by 3 and 7 at the same time\bin\Divide int by 3 and 7 at the same time.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\Divide int by 3 and 7 at the same time\obj\Debug\02. Divide int by 3 and 7 at the same time.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\Divide int by 3 and 7 at the same time\obj\Debug\Divide int by 3 and 7 at the same time.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\Divide int by 3 and 7 at the same time\obj\Debug\Divide int by 3 and 7 at the same time.pdb

@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Add elements</title>
+    <script src="scripts/jquery-2.1.1.js"></script>
+    <style>
+        #div {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="div">div</div>
+    <script>
+        $div = $('#div');
+
+        //switch true or false in order to insert the element before/after the target
+        insert($div,'<button>I am inserted</button>', false);
+
+        function insert(target, newElement, isBefore) {
+
+            if(isBefore) {
+                $(target).before(newElement);
+            } else {
+                $(target).after(newElement);
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿<!--Write a script that finds the max and min number from a sequence of numbers-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Check minimum and maximum in siquence of numbers</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>Enter as much numbers you want divided by coma <i>e.g. 1,5,11,27,33,55,4</i></p>
+    <label for="input">Enter numbers</label>
+    <input type="text" id="input"/>
+    <br/>
+    <button onclick = "CheckMinMax()">Check Min and Max</button>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    function CheckMinMax() {
+	        var numbers = document.getElementById("input").value,
+                arrayNumbers = numbers.split(","),
+                i;
+
+	        for (i = 0, length = arrayNumbers.length; i < length; i++) {
+	            arrayNumbers[i] = parseInt(arrayNumbers[i], 10);
+	        }
+	        var min = arrayNumbers[0],
+                max = arrayNumbers[0];
+
+	        for (i = 0, length = arrayNumbers.length; i < length; i++) {
+	            if (arrayNumbers[i] > max) {
+	                max = arrayNumbers[i];
+	            } else if (arrayNumbers[i] < min) {
+	                min = arrayNumbers[i];
+	            }
+	        }
+	        jsConsole.writeLine("The minimum is " + min + " and the maximum is " + max);
+	    }
+	</script>
+</body>
+</html>

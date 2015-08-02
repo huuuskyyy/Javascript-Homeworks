@@ -1,0 +1,36 @@
+﻿<!--Write script that asks for a digit and depending on the input shows the name of that digit (in English) using a switch statement-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Return digit as text</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>Enter a digit (0-9) and the script will return it as a text</p>
+    <label for="input">Enter a digit</label>
+    <input type="text" id="input"/>
+    <button onclick = "ReadDigit()">Read the digit</button>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    function ReadDigit() {
+	        var digit = jsConsole.readFloat("#input");
+
+	        switch (digit) {
+	            case 0: jsConsole.writeLine("ZERO"); break;
+	            case 1: jsConsole.writeLine("ONE"); break;
+	            case 2: jsConsole.writeLine("TWO"); break;
+	            case 3: jsConsole.writeLine("THREE"); break;
+	            case 4: jsConsole.writeLine("FOUR"); break;
+	            case 5: jsConsole.writeLine("FIVE"); break;
+	            case 6: jsConsole.writeLine("SIX"); break;
+	            case 7: jsConsole.writeLine("SEVEN"); break;
+	            case 8: jsConsole.writeLine("EIGHT"); break;
+	            case 9: jsConsole.writeLine("NINE"); break;
+	            default: jsConsole.writeLine("This is not a digit");
+	        }
+	    }
+	</script>
+</body>
+</html>

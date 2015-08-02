@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Crowd chat</title>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <script src="libs/jquery-2.1.1.js"></script>
+    <script src="libs/mustache.js"></script>
+    <script src="libs/sammy.js"></script>
+    <script src="scripts/message.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Crowd chat</h1>
+    </header>
+    <aside>
+        <form id="form-user-and-message">
+            <label for="input-user-name">Username</label>
+            <input type="text" id="input-user-name" />
+            <label for="input-user-text">Message</label>
+            <input type="text" id="input-user-text" />
+            <label for="btn-send-message"></label>
+            <button id="btn-send-message" type="button" onclick="sendMessage()">Send</button>
+        </form>
+    </aside>
+    <section id="messages-container">
+
+    </section>
+    <script id="template-message" type="x-tmpl-mustache">
+        {{#messages}}
+        <div class="message-container">
+            <h2>{{{by}}}</h2>
+            <p>{{{text}}}</p>
+        </div>
+        {{/messages}}
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Functions and function epxressions\03. Console module\bin\_03.Console_module.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Functions and function epxressions\03. Console module\bin\_03.Console_module.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Functions and function epxressions\03. Console module\bin\_03.Console_module.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Functions and function epxressions\03. Console module\obj\Debug\_03.Console_module.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Functions and function epxressions\03. Console module\obj\Debug\_03.Console_module.pdb

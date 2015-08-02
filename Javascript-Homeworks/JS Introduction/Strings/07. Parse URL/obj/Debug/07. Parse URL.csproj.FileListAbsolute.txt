@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\07. Parse URL\bin\_07.Parse_URL.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\07. Parse URL\bin\_07.Parse_URL.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\07. Parse URL\obj\Debug\_07.Parse_URL.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\07. Parse URL\obj\Debug\_07.Parse_URL.pdb

@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Modules and Patterns\01. Snake\bin\_01.Snake.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Modules and Patterns\01. Snake\bin\_01.Snake.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Modules and Patterns\01. Snake\bin\_01.Snake.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Modules and Patterns\01. Snake\obj\Debug\01. Snake.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Modules and Patterns\01. Snake\obj\Debug\_01.Snake.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Modules and Patterns\01. Snake\obj\Debug\_01.Snake.pdb

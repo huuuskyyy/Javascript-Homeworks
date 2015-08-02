@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Request with module</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="libs/jquery-2.1.1.min.js"></script>
+    <script src="scripts/module.js"></script>
+</head>
+<body>
+    <h2>Module request</h2>
+    <p class="paragraph">This example works with Telerik Backend Services. Please use it only to check the homework and don't flood the server.</p>
+    <p class="paragraph">The GET request will return all Car objects on the server. You can check it in the console</p>
+    <p class="paragraph">With POST you can send a new car with give Model, Color and Seats. Check the result in the console</p>
+    <script>
+        //please note that the $.ajax success and error functions work async and it's not needed to use require.js
+        request.postJSON('http://api.everlive.com/v1/ZwiYr6uBC4PuqCIl/Car', { Model: 'Moskvich', Color: 'Blue', Seats: '5' });
+        request.getJSON('http://api.everlive.com/v1/ZwiYr6uBC4PuqCIl/Car');
+    </script>
+</body>
+</html>

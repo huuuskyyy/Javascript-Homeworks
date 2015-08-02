@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\02. Remove all elements\bin\_02.Remove_all_elements.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\02. Remove all elements\bin\_02.Remove_all_elements.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\02. Remove all elements\obj\Debug\_02.Remove_all_elements.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\02. Remove all elements\obj\Debug\_02.Remove_all_elements.pdb

@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\03. Students\bin\_03.Students.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\03. Students\bin\_03.Students.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\03. Students\bin\_03.Students.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\03. Students\obj\Debug\_03.Students.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\Consuming Remote Data\03. Students\obj\Debug\_03.Students.pdb

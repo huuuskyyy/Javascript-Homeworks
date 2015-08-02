@@ -1,0 +1,17 @@
+﻿body {
+}
+body div div {
+            display: none;
+            border-width: 5px;
+            border-style: dotted solid;
+            border-color: gray;
+            border-top: none;
+            width: 70px;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .selected {
+            display: block;
+        }

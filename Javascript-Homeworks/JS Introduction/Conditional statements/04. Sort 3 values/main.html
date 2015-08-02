@@ -1,0 +1,66 @@
+﻿<!--Sort 3 real values in descending order using nested if statements-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sort three numbers</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>Enter 3 numbers and the script will sort them</p>
+    <label for="first">Enter first number</label>
+    <input type="text" id="first"/>
+    <label for="second">Enter second number</label>
+    <input type="text" id="second"/>
+    <label for="third">Enter third number</label>
+    <input type="text" id="third"/>
+    <button onclick = "CheckBiggest()">Sort them</button>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    function CheckBiggest() {
+	        var firstNum = jsConsole.readFloat("#first"),
+                secondNum = jsConsole.readFloat("#second"),
+                thirdNum = jsConsole.readFloat("#third"),
+                sorted = "";
+
+	        if (firstNum === secondNum || firstNum === thirdNum || secondNum === thirdNum) {
+	            jsConsole.writeLine("Two or three numbers have the same value. I was to lasy to write suitable code for this case :)");
+	        } else {
+	            if (firstNum > secondNum) {
+	                if (firstNum > thirdNum) {
+	                    sorted += " " + firstNum;
+                        if (secondNum > thirdNum) {
+	                        sorted += " " + secondNum;
+	                        sorted += " " + thirdNum;
+	                    } else {
+	                        sorted += " " + thirdNum;
+	                        sorted += " " + secondNum;
+	                    }
+	                } else {
+	                    sorted += " " + thirdNum;
+	                    sorted += " " + firstNum;
+	                    sorted += " " + secondNum;
+	                }
+	            } else {
+	                if (secondNum > thirdNum) {
+	                    sorted += " " + secondNum;
+	                    if (firstNum > thirdNum) {
+	                        sorted += " " + firstNum;
+	                        sorted += " " + thirdNum;
+	                    } else {
+	                        sorted += " " + thirdNum;;
+	                        sorted += " " + firstNum;
+	                    }
+	                } else {
+	                    sorted += " " + thirdNum;
+	                    sorted += " " + secondNum;
+	                    sorted += " " + firstNum;
+	                }
+	            }
+	        }
+	        jsConsole.writeLine("The sorted numbers are " + sorted);
+	    }
+	</script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Read number</title>
+</head>
+<body>
+    <div id="js-console"></div>
+    <br />
+    <script src="js-console.js"></script>
+    <script>
+        function Solve(input) {
+
+            var currentLine,
+                functions = [],
+                functionName,
+                isWritting = true,
+                isDefinition = false,
+                isAssignDefinition = false,
+                definition,
+                operation,
+                isCalculating = false,
+                numbers = [],
+                result = 0;
+
+            for (var i = 0; i < input.length; i++) {
+
+                currentLine = input[i];
+                var currentString = '';
+                operation = '';
+                result = 0;
+
+                for (var j = 0; j < currentLine.length; j++) {
+
+                    var currentChar = currentLine[j];
+
+                    if (currentChar == ' ' || currentChar == ',' || currentChar == '[') {
+                        isWritting = false;
+                    } else if (currentChar == ']') {
+                        isCalculating = true;
+                        isWritting = false;
+                    } else {
+                        isWritting = true;
+                    }
+
+                    if (isWritting) {
+                        currentString += currentChar;
+                        continue;
+                    }
+
+                    if (currentString == '' && !isCalculating) {
+                        continue;
+                    }
+
+                    if (isNaN(currentString)) {
+
+                        if (isDefinition) {
+
+                            functions[currentString] = [];
+                            definition = currentString;
+
+                            isDefinition = false;
+                            isAssignDefinition = true;
+                        } else {
+                           
+                            switch (currentString) {
+
+                                case 'def': isDefinition = true; break;
+                                case 'min': operation = 'min'; break;
+                                case 'max': operation = 'max'; break;
+                                case 'avg': operation = 'avg'; break;
+                                case 'sum': operation = 'sum'; break;
+                                default: numbers.push(functions[currentString]); break;
+                            }
+                        }
+
+                    } else if (currentString != '') {
+
+                        numbers.push(parseInt(currentString));
+                       
+                    }
+
+                    if (isCalculating) {
+                      
+                        if (operation == '') {
+                            if (isAssignDefinition) {
+                                result = numbers;
+                            } else {
+                                result = numbers[0];
+                            }
+
+                        } else {
+                            result = CalculateNumbers(numbers, operation);
+                        }
+
+                        isCalculating = false;
+                        numbers = [];
+
+                        if (isAssignDefinition) {
+                           
+                            functions[definition] = result;
+                            isAssignDefinition = false;
+                        }
+                    }
+                    currentString = '';
+                }
+
+            }
+
+            return result;
+
+            function CalculateNumbers(numbers, operation) {
+
+                switch (operation) {
+
+                    case 'min': return CalculateMin(numbers); break;
+                    case 'max': return CalculateMax(numbers); break;
+                    case 'avg': return CalculateAvg(numbers); break;
+                    case 'sum': return CalculateSum(numbers); break;
+                    default: return parseInt(numbers[0]); break;
+                }
+            }
+
+            function CalculateMin(numbers) {
+                
+                var min;
+
+                if (Object.prototype.toString.call(numbers[0]) === '[object Array]') {
+                    min = CalculateMin(numbers[0]);
+                } else {
+                    min = parseInt(numbers[0]);
+                }
+
+                for (var i = 1; i < numbers.length; i++) {
+
+                    var current;
+
+                    if (Object.prototype.toString.call(numbers[i]) === '[object Array]') {
+                        current = CalculateMin(numbers[i]);
+                    } else {
+                        current = parseInt(numbers[i]);
+                    }
+
+                    if (current < min) {
+                        min = current;
+                    }
+                }
+                return min;
+            }
+
+            function CalculateMax(numbers) {
+
+                var max;
+
+                if (Object.prototype.toString.call(numbers[0]) === '[object Array]') {
+                    max = CalculateMax(numbers[0]);
+                } else {
+                    max = parseInt(numbers[0]);
+                }
+
+                for (var i = 1; i < numbers.length; i++) {
+
+                    var current;
+
+                    if (Object.prototype.toString.call(numbers[i]) === '[object Array]') {
+                        current = CalculateMax(numbers[i]);
+                    } else {
+                        current = parseInt(numbers[i]);
+                    }
+
+                    if (current > max) {
+                        max = current;
+                    }
+                }
+                return max;
+            }
+
+            function CalculateSum(numbers) {
+
+                var sum = 0;
+
+                for (var i = 0; i < numbers.length; i++) {
+
+                    if (Object.prototype.toString.call(numbers[i]) === '[object Array]') {
+                        
+                        for (var index in numbers[i]) {
+                            sum += parseInt(numbers[i][index]);
+                        }
+
+                    } else {
+                        sum += parseInt(numbers[i]);
+                    }
+                }
+                return sum;
+            }
+
+            function CalculateAvg(numbers) {
+
+                return parseInt(CalculateSum(numbers) / numbers.length);
+            }
+        }
+    </script>
+</body>
+</html>
+

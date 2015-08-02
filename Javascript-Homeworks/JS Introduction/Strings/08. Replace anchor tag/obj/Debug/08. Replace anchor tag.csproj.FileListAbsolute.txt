@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\08. Replace anchor tag\bin\_08.Replace_anchor_tag.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\08. Replace anchor tag\bin\_08.Replace_anchor_tag.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\08. Replace anchor tag\obj\Debug\_08.Replace_anchor_tag.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\08. Replace anchor tag\obj\Debug\_08.Replace_anchor_tag.pdb

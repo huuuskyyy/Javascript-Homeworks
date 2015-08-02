@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\03. Maximal sequence\bin\_03.Maximal_sequence.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\03. Maximal sequence\bin\_03.Maximal_sequence.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\03. Maximal sequence\obj\Debug\_03.Maximal_sequence.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\03. Maximal sequence\obj\Debug\_03.Maximal_sequence.pdb

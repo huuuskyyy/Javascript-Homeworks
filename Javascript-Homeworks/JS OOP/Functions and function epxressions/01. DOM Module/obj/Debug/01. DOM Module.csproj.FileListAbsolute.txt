@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Functions and function epxressions\01. DOM Module\bin\_01.DOM_Module.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Functions and function epxressions\01. DOM Module\bin\_01.DOM_Module.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Functions and function epxressions\01. DOM Module\bin\_01.DOM_Module.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Functions and function epxressions\01. DOM Module\obj\Debug\01. DOM Module.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Functions and function epxressions\01. DOM Module\obj\Debug\_01.DOM_Module.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Functions and function epxressions\01. DOM Module\obj\Debug\_01.DOM_Module.pdb

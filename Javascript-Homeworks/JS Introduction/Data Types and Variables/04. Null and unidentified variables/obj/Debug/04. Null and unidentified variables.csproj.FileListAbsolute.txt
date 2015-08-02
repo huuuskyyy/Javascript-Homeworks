@@ -1,0 +1,8 @@
+c:\users\angel\documents\visual studio 2012\Projects\Data Types and Variables\04. Null and unidentified variables\bin\_04.Null_and_unidentified_variables.dll
+c:\users\angel\documents\visual studio 2012\Projects\Data Types and Variables\04. Null and unidentified variables\bin\_04.Null_and_unidentified_variables.pdb
+c:\users\angel\documents\visual studio 2012\Projects\Data Types and Variables\04. Null and unidentified variables\obj\Debug\_04.Null_and_unidentified_variables.dll
+c:\users\angel\documents\visual studio 2012\Projects\Data Types and Variables\04. Null and unidentified variables\obj\Debug\_04.Null_and_unidentified_variables.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Data Types and Variables\04. Null and unidentified variables\bin\_04.Null_and_unidentified_variables.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Data Types and Variables\04. Null and unidentified variables\bin\_04.Null_and_unidentified_variables.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Data Types and Variables\04. Null and unidentified variables\obj\Debug\_04.Null_and_unidentified_variables.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Data Types and Variables\04. Null and unidentified variables\obj\Debug\_04.Null_and_unidentified_variables.pdb

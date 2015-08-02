@@ -1,0 +1,9 @@
+p {
+    /* Make all the text in p elements blue */
+    color: blue;
+}
+
+h2 {
+    /* Make all the text in h2 elements red */
+    color: red;
+}

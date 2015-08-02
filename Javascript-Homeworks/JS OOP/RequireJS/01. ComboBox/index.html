@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ComboBox</title>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <script src="scripts/libs/requirejs.js" data-main="scripts/app"></script>
+</head>
+<body>
+    <div id="comboBox"></div>
+    <script id="person-template" type="text/x-handlebars-template">
+        {{#people}}
+        <div class="person-item" data-id="person-item-{{id}}">
+            <strong class="person-name">{{name}}</strong><p class="person-age">{{age}}</p>
+            <img src="{{avatarUrl}}" width="50px" height="50px" />
+        </div>
+        {{/people}}
+    </script>
+</body>
+</html>

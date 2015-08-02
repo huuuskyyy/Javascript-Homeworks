@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ToDo App</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <script src="scripts/todo-app.js"></script>
+</head>
+<body>
+    <div id="container">
+        <input id="input" type="text" placeholder="Write + Add task. Mark + Remove task" />
+        <div id="buttons">
+            <button id="minimize">Minimize</button>
+            <button id="addItem">Add task</button>
+            <button id="removeItem">Remove task</button>
+        </div>
+        <div id="display"></div>
+    </div>
+    <div id="minimized">
+        <button id="restore">Restore</button>
+    </div>
+    <script>
+        window.onload = createToDoApp();
+    </script>
+</body>
+</html>

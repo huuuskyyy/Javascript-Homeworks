@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\JS Applications Exam\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\JS Applications Exam\Tests\bin\Tests.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\JS Applications Exam\Tests\bin\Tests.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\JS Applications Exam\Tests\bin\Tests.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\JS Applications Exam\Tests\obj\Debug\Tests.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\JS Applications Exam\Tests\obj\Debug\Tests.pdb

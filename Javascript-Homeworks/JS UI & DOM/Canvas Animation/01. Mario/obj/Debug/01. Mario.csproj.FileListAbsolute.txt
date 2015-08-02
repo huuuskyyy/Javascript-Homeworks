@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Canvas Animation\01. Mario\bin\_01.Mario.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Canvas Animation\01. Mario\bin\_01.Mario.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Canvas Animation\01. Mario\bin\_01.Mario.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Canvas Animation\01. Mario\obj\Debug\01. Mario.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Canvas Animation\01. Mario\obj\Debug\_01.Mario.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Canvas Animation\01. Mario\obj\Debug\_01.Mario.pdb

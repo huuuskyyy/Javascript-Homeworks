@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Nested divs</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div>Inner</div>
+        <div>Inner</div>
+        <div>Inner</div>
+        <div>Inner</div>
+    </div>
+    <div>Outer</div>
+    <script>
+
+        var innerDivsQuerySelected = document.querySelectorAll('div div');
+        var innerDivsSelectedByTag = document.getElementsByTagName('div');
+        var nestedDivs = [];
+
+        console.log("Divs selected by query selector");
+        for (var i = 0; i < innerDivsQuerySelected.length;i++) {
+            
+            console.log(innerDivsQuerySelected[i].outerHTML);
+        }
+
+        for (var item in innerDivsSelectedByTag) {
+
+            if(innerDivsSelectedByTag[item].parentNode =='[object HTMLDivElement]') {
+             nestedDivs.push(innerDivsSelectedByTag[item]);
+            }
+        }
+
+        console.log("Divs selected by tag name");
+        console.log(nestedDivs[0].outerHTML);
+        console.log(nestedDivs[1].outerHTML);
+        console.log(nestedDivs[2].outerHTML);
+        console.log(nestedDivs[3].outerHTML);
+
+    </script>
+</body>
+</html>
+

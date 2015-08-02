@@ -1,0 +1,56 @@
+﻿<!--Write a function that counts how many times given number appears in given array. 
+    Write a test function to check if the function is working correctly-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Count number in array</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>The script will check frequency of desired number within the array you will input</p>
+    <label for="array">Enter numbers separated by coma <i>e.g. 5,7,2,1,5,76,3,1,1,5,1</i></label>
+    <input type="text" id="array"/>
+    <label for="number">Enter the number you want to check</label>
+    <input type="text" id="number"/>
+    <button onclick="readInput()">Check frequency</button>
+    <br>
+    <label for"test">If you want you can run tests by clicking on the button</label>
+    <button onclick="runTests()">Run tests</button>
+    <br>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    function readInput() {
+	        var array = jsConsole.read("#array").split(/[\s,.]+/),
+                number = jsConsole.read("#number");
+	        checkFrequency(array, number);
+
+	    }
+
+	    function checkFrequency(arr, num) {
+	        var counter = 0,
+                i;
+
+	        for (i = 0, length = arr.length; i < length; i++) {
+	            if (arr[i] === num) {
+	                counter++;
+	            }
+	        }
+
+	        jsConsole.writeLine("The array is " + arr);
+	        jsConsole.writeLine("The number '" + num + "' appears " + counter + " times");
+	        jsConsole.writeLine("");
+	    }
+
+	    function runTests() {
+	        checkFrequency([5, 3, 1, 6, 7, 3, 1, 23, 5, 32, 5, 2, 5], 5);
+	        checkFrequency([9, 6, 3, 0, 8, 5, 4, 9, 9, 7], 9);
+	        checkFrequency(["gosho", "gosho", "pesho", "gosho", "pesho", "gosho"], "gosho");
+	        checkFrequency([0, 5, 7, 0, 4], 0);
+	    }
+	</script>
+</body>
+</html>
+
+

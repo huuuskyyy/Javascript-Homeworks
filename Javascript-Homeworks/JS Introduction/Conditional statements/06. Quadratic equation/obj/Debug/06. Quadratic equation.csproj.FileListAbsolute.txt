@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\06. Quadratic equation\bin\_06.Quadratic_equation.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\06. Quadratic equation\bin\_06.Quadratic_equation.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\06. Quadratic equation\obj\Debug\_06.Quadratic_equation.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\06. Quadratic equation\obj\Debug\_06.Quadratic_equation.pdb

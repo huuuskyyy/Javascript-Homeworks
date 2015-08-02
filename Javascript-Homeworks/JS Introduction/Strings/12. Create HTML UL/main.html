@@ -1,0 +1,65 @@
+﻿<!--Write a function that creates a HTML UL using a template for every HTML LI. 
+The source of the list should an array of elements.
+ Replace all placeholders marked with –{…}–   with the value of the corresponding property of the object.-->
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Read number</title>
+        <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div data-type="template" id="list-item">
+        <strong>-{name}-</strong> <span>-{age}-</span>
+    </div>
+    <br />
+        <div id="js-console"></div>
+    <br />
+        <script src="js-console.js"></script>
+        <script>
+
+            var people = [{ name: "Pesho", age: 22 }, { name: "Gosho", age: 32 }, { name: "Tosho", age: 28 }, { name: "Nacho", age: 52 }],
+                htmlElement = document.getElementById("list-item").innerHTML,
+                result = insertObject(people, htmlElement);
+
+            jsConsole.writeLine(result);
+
+            function insertObject(objects, pattern) {
+
+                var output = "",
+                    indexArray = [],
+                    itemArray = [],
+                    counter = 0;
+
+
+                for (var item in people[0]) {
+
+                    var tempIndex = pattern.indexOf(item);
+                    indexArray.push(tempIndex);
+                    itemArray.push(item);
+                }
+
+                for (var i = 0; i < objects.length; i++) {
+
+                    var tempPattern = pattern;
+                    output += "<ul>";
+
+                    for (var j = 0; j < itemArray.length; j++) {
+
+                        output += "<li>";
+
+                        var target = "-{" + itemArray[j] + "}-",
+                            re = new RegExp(target, "g"),
+                            newValue = objects[i][itemArray[j]].toString();
+
+                        tempPattern = tempPattern.replace(re, newValue);
+                    }
+                    output += tempPattern;
+                    output += "</li>";
+                }
+                output += "</ul>";
+                return output;
+            }
+        </script>
+</body>
+</html>

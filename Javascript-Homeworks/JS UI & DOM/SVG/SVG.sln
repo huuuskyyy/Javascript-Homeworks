@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. MEAN", "01. MEAN\01. MEAN.csproj", "{657A9851-B25D-4A29-B595-EED850007E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. MetroStyle", "02. MetroStyle\02. MetroStyle.csproj", "{60FC3734-74EA-4DD5-8E21-82C3DDDA30BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. DOM MEAN and Metro", "03. DOM MEAN and Metro\03. DOM MEAN and Metro.csproj", "{4225C5B0-5647-452C-AAE9-F0840A8B7C64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{657A9851-B25D-4A29-B595-EED850007E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657A9851-B25D-4A29-B595-EED850007E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657A9851-B25D-4A29-B595-EED850007E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657A9851-B25D-4A29-B595-EED850007E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FC3734-74EA-4DD5-8E21-82C3DDDA30BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FC3734-74EA-4DD5-8E21-82C3DDDA30BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FC3734-74EA-4DD5-8E21-82C3DDDA30BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FC3734-74EA-4DD5-8E21-82C3DDDA30BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4225C5B0-5647-452C-AAE9-F0840A8B7C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4225C5B0-5647-452C-AAE9-F0840A8B7C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4225C5B0-5647-452C-AAE9-F0840A8B7C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4225C5B0-5647-452C-AAE9-F0840A8B7C64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

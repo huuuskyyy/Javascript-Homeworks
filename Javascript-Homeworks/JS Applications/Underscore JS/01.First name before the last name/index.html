@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Underscore</title>
+    <script src="underscore.js"></script>
+</head>
+<body>
+    <div id="display"></div>
+</body>
+<script>
+        var display = document.getElementById('display');
+        var content = document.createElement('div');
+
+        var students = [{firstName : 'Petar', lastName : 'Asenov'},
+                        {firstName : 'Marin', lastName : 'Todorov'},
+                        {firstName : 'Stoyan', lastName : 'Petrov'},
+                        {firstName : 'Asen', lastName : 'Marinov'},
+                        {firstName : 'Todor', lastName : 'Dimitrov'},
+                        {firstName : 'Dimitar', lastName : 'Stoyanov'}
+                       ];
+
+        function alphabeticalCompareStudents(student) {
+
+            if(student.firstName < student.lastName) return student;
+            if(student.firstName > student.lastName) return false;
+            return false;
+
+        }
+
+        function addNewStudentNames(student) {
+            content.innerHTML += '<br>' + student.firstName + "  " + student.lastName;
+        }
+
+        var filtered = _
+                        .chain(students)
+                        .filter(alphabeticalCompareStudents)
+                        .sortBy('firstName')
+                        .reverse()
+                        .each(addNewStudentNames);
+
+        display.appendChild(content);
+</script>
+</html>

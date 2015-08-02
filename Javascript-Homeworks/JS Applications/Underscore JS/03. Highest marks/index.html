@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Underscore</title>
+    <script src="underscore.js"></script>
+</head>
+<body>
+    <div id="display"></div>
+</body>
+<script>
+    var display = document.getElementById('display');
+    var content = document.createElement('div');
+
+    var students = [{ firstName: 'Petar', lastName: 'Asenov', marks: { javascript: 15, html: 22, css: 30 } },
+                    { firstName: 'Marin', lastName: 'Todorov', marks: { javascript: 25, html: 12, css: 27 } },
+                    { firstName: 'Stoyan', lastName: 'Petrov', marks: { javascript: 19, html: 22, css: 22 } },
+                    { firstName: 'Asen', lastName: 'Marinov', marks: { javascript: 35, html: 22, css: 30 } },
+                    { firstName: 'Todor', lastName: 'Dimitrov', marks: { javascript: 22, html: 22, css: 30 } },
+                    { firstName: 'Dimitar', lastName: 'Stoyanov', marks: { javascript: 18, html: 22, css: 30 } }
+    ];
+
+    function calculateAverageMark(student) {
+
+        var totalMarks = 0;
+        var contMarks = 0;
+        var allMarks = _.values(student.marks);
+
+        for (var mark in allMarks) {
+            totalMarks += allMarks[mark];
+            contMarks++;
+        }
+
+        student['average'] = (totalMarks / contMarks);
+    }
+
+    function addNewStudentNames(student) {
+        content.innerHTML += '<br>' + student.firstName + "  " + student.lastName;
+    }
+
+    var highestMarksStudents = _
+                    .chain(students)
+                    .each(calculateAverageMark)
+                    .sortBy('average')
+                    .reverse()
+                    .first()
+                    .value();
+
+    console.log(highestMarksStudents.firstName + "  " + highestMarksStudents.lastName);
+    content.innerHTML += highestMarksStudents.firstName + "  " + highestMarksStudents.lastName;
+    display.appendChild(content);
+</script>
+</html>

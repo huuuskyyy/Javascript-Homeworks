@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\SPA Applications and architechture\01. Crowded chat\bin\_01.Crowded_chat.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\SPA Applications and architechture\01. Crowded chat\bin\_01.Crowded_chat.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\SPA Applications and architechture\01. Crowded chat\bin\_01.Crowded_chat.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\SPA Applications and architechture\01. Crowded chat\obj\Debug\01. Crowded chat.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\SPA Applications and architechture\01. Crowded chat\obj\Debug\_01.Crowded_chat.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\SPA Applications and architechture\01. Crowded chat\obj\Debug\_01.Crowded_chat.pdb

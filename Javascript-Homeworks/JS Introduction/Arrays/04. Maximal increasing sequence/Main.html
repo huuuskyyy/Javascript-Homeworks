@@ -1,0 +1,49 @@
+﻿<!--Write a script that finds the maximal increasing sequence in an array. Example: {3, 2, 3, 4, 2, 2, 4}  {2, 3, 4}.-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maximal increasing sequence</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <br>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    var arrOne = [1, 2, 3, 4, 6, 3, 5, 6, 7, 8, 9, 4, 2, 2],
+            i,
+            start,
+            tempStart = 0,
+            count = 0,
+            tempCount = 1,
+            element;
+        
+	    for(i = 0, length = arrOne.length; i < length; i++){
+                   
+	        if(i === 0){
+	            element = arrOne[i];
+	            continue;
+	        }
+	        if(element+1 === arrOne[i]){
+	            tempCount++;
+	            element++;
+	        } else{
+	            if(tempCount>count) {
+	                count = tempCount; 
+	                start = tempStart;
+	            }
+	            element = arrOne[i];
+	            tempStart = i;
+	            tempCount = 1;
+	        }
+	    }
+             
+	    jsConsole.writeLine("The longest increasing sequence is ");
+
+	    for(i=start; i<(start+count); i++){
+	        jsConsole.writeLine(arrOne[i]);
+	    }
+	</script>
+</body>
+</html>

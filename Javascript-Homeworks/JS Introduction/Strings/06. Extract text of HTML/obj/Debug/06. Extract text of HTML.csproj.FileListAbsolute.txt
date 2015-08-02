@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\06. Extract text of HTML\bin\_06.Extract_text_of_HTML.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\06. Extract text of HTML\bin\_06.Extract_text_of_HTML.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\06. Extract text of HTML\obj\Debug\_06.Extract_text_of_HTML.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\06. Extract text of HTML\obj\Debug\_06.Extract_text_of_HTML.pdb

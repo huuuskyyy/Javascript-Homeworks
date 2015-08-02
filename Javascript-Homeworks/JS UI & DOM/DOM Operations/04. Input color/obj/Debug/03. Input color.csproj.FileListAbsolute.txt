@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\04. Input color\bin\_04.Input_color.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\04. Input color\bin\_04.Input_color.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\04. Input color\bin\_04.Input_color.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\04. Input color\obj\Debug\_04.Input_color.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\DOM Operations\04. Input color\obj\Debug\_04.Input_color.pdb

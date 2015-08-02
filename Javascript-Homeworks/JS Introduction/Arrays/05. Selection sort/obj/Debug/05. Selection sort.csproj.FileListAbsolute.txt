@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\05. Selection sort\bin\_05.Selection_sort.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\05. Selection sort\bin\_05.Selection_sort.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\05. Selection sort\obj\Debug\_05.Selection_sort.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\05. Selection sort\obj\Debug\_05.Selection_sort.pdb

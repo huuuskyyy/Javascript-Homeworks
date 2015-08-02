@@ -1,0 +1,30 @@
+﻿<!--Write a function for extracting all email addresses from given text. 
+All substrings that match the format <identifier>@<host>…<domain> should be recognized as emails.
+Return the emails as array of strings-->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Extract email</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <br />
+    <script src="js-console.js"></script>
+    <script>
+        var text = "This email is valid valid_email@email.com and this is not_valid@@email.com, another example of valid email is secondvalid@mail.info and not valid email notvalid@email..info";
+        var words = text.split(/[\s,]+/);
+        var regExpression = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/i;
+        var emails = [];
+
+        for (var item in words) {
+
+            if (regExpression.test(words[item])) {
+
+                emails.push(words[item]);
+                jsConsole.writeLine(words[item]);
+            }
+        }
+    </script>
+</body>
+</html>

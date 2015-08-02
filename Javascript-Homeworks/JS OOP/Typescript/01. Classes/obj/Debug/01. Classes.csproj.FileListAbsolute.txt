@@ -1,0 +1,6 @@
+C:\Users\Angel\Desktop\Exam JS\JS OOP EXAM\Typescript\01. Classes\bin\01. Classes.dll.config
+C:\Users\Angel\Desktop\Exam JS\JS OOP EXAM\Typescript\01. Classes\bin\01. Classes.dll
+C:\Users\Angel\Desktop\Exam JS\JS OOP EXAM\Typescript\01. Classes\bin\01. Classes.pdb
+C:\Users\Angel\Desktop\Exam JS\JS OOP EXAM\Typescript\01. Classes\obj\Debug\01. Classes.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Desktop\Exam JS\JS OOP EXAM\Typescript\01. Classes\obj\Debug\01. Classes.dll
+C:\Users\Angel\Desktop\Exam JS\JS OOP EXAM\Typescript\01. Classes\obj\Debug\01. Classes.pdb

@@ -1,0 +1,79 @@
+﻿body, div, text, textarea, button, html {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 800px;
+        height: 500px;
+    }
+
+    #container {
+        width: 500px;
+        height: 300px;
+        border: 5px solid black;
+        margin-top: 100px;
+        margin-left: 100px;
+        display: inline-block;
+    }
+
+    #buttons {
+        display: inline-block;
+        width: 100px;
+        height: 300px;
+        float: right;
+        border-left: 5px solid black;
+    }
+
+    #input {
+        height: 50px;
+        width: 300px;
+        margin: 50px 20px 0px 50px;
+    }
+
+    #addItem {
+        height: 100px;
+        width: 100px;
+        border-radius: 60px;
+        margin-top: 20px;
+        background: green;
+    }
+
+    #display {
+        width: 350px;
+        height: 170px;
+        border: 5px solid black;
+        border-bottom: none;
+        margin: 20px 0px 0px 20px;
+        overflow: auto;
+    }
+
+    #minimize {
+        float: right;
+        background-color: red;
+        color: white;
+    }
+
+    #removeItem {
+        height: 100px;
+        width: 100px;
+        border-radius: 60px;
+        margin-top: 20px;
+        background: black;
+        color: white;
+    }
+
+    #minimized {
+        display: none;
+        margin-left: 530px;
+        margin-top: 60px;
+    }
+
+    #restore {
+        height: 100px;
+        width: 100px;
+        border-radius: 60px;
+        margin-top: 20px;
+        background: #7590D9;
+        color: white;
+    }

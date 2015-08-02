@@ -1,0 +1,10 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\KPK\Code Tuning and Optimization\SVG\02. MetroStyle\bin\_02.MetroStyle.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\KPK\Code Tuning and Optimization\SVG\02. MetroStyle\bin\_02.MetroStyle.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\KPK\Code Tuning and Optimization\SVG\02. MetroStyle\bin\_02.MetroStyle.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\KPK\Code Tuning and Optimization\SVG\02. MetroStyle\obj\Debug\_02.MetroStyle.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\KPK\Code Tuning and Optimization\SVG\02. MetroStyle\obj\Debug\_02.MetroStyle.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\SVG\02. MetroStyle\bin\_02.MetroStyle.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\SVG\02. MetroStyle\bin\_02.MetroStyle.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\SVG\02. MetroStyle\bin\_02.MetroStyle.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\SVG\02. MetroStyle\obj\Debug\_02.MetroStyle.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\SVG\02. MetroStyle\obj\Debug\_02.MetroStyle.pdb

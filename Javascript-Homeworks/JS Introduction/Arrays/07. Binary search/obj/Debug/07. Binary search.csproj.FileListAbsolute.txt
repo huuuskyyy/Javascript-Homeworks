@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\07. Binary search\bin\_07.Binary_search.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\07. Binary search\bin\_07.Binary_search.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\07. Binary search\obj\Debug\_07.Binary_search.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\07. Binary search\obj\Debug\_07.Binary_search.pdb

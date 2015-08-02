@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Loops\03. Find min and max\bin\_03.Find_min_and_max.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Loops\03. Find min and max\bin\_03.Find_min_and_max.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Loops\03. Find min and max\obj\Debug\_03.Find_min_and_max.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Loops\03. Find min and max\obj\Debug\_03.Find_min_and_max.pdb

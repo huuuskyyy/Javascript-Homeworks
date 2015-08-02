@@ -1,0 +1,27 @@
+﻿<!--Write a boolean expression that checks for given integer if it can be divided (without remainder) by 7 and 5 in the same time-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data types and variables - Integer types</title>
+	<link href="..Script\js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>Find if number can be divided to 7 and 5 and the same time</p>
+    <input type="text" id="input_field"/>
+    <button onclick = "SevenOrFiveFunction()">Find answer</button>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    function SevenOrFiveFunction() {
+	        var userInput = jsConsole.readFloat("#input_field");
+
+	        if (userInput % 35 == 0) {
+	            jsConsole.writeLine(userInput + " CAN be divided to 7 and 5 and the same time");
+	        } else {
+	            jsConsole.writeLine(userInput + " CAN'T be divided to 7 and 5 and the same time");
+	        }
+	    }
+	</script>
+</body>
+</html>

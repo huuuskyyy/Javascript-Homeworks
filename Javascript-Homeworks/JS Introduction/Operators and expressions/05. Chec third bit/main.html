@@ -1,0 +1,28 @@
+﻿<!--Write a boolean expression for finding if the bit 3 (counting from 0) of a given integer is 1 or 0-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Check Third Bit</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>Check third bit of a number</p>
+    <label for="input">Enter number</label>
+    <input type="text" id="input"/>
+    <button onclick = "CheckThirdBit()">Find the answer</button>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    function CheckThirdBit() {
+	        var number = jsConsole.readFloat("#input"),
+                mask = 1 << 3,
+                tempNum = number & mask,
+                resultNum = (tempNum >> 3) === 1;
+
+	        jsConsole.writeLine("Your number's bit representation is " + number.toString(2));
+	        jsConsole.writeLine("The bit at position 3 is 1 - " + resultNum);
+	    }
+	</script>
+</body>
+</html>

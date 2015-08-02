@@ -1,0 +1,60 @@
+﻿<!--Write a function that finds the youngest person in a given array of persons and prints his/hers full name
+Each person have properties firstname, lastname and age-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Points and lines</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+
+	    function createPerson(firstName, lastName, age) {
+
+	        return {
+	            firstName: firstName,
+	            lastName: lastName,
+	            age: age,
+	            toString: function () {
+	                return this.firstName + " " + this.lastName + " " + this.age;
+	            }
+	        }
+	    }
+
+	    function findYoungest(targetArray) {
+
+	        var youngest = targetArray[0];
+
+	        for (var i = 1; i < targetArray.length; i++) {
+	            if (targetArray[i].age < youngest.age) {
+	                youngest = targetArray[i];
+	            }
+	        }
+
+	        jsConsole.writeLine("The youngest person is " + youngest.firstName + " " + youngest.lastName + " age " + youngest.age);
+	    }
+
+	    var arrayPeople = [],
+            firstPerson = createPerson("Ivan", "Ivanov", 66),
+            secondPerson = createPerson("Petar", "Petrov", 33),
+            thirdPerson = createPerson("Gosho", "Goshov", 22),
+            fourthPerson = createPerson("Nedko", "Nedkov", 11),
+            fifthPerson = createPerson("Kolio", "Kolev", 44);
+
+	    arrayPeople.push(firstPerson);
+	    arrayPeople.push(secondPerson);
+	    arrayPeople.push(thirdPerson);
+	    arrayPeople.push(fourthPerson);
+	    arrayPeople.push(fifthPerson);
+
+	    findYoungest(arrayPeople);
+
+	</script>
+</body>
+</html>
+
+
+

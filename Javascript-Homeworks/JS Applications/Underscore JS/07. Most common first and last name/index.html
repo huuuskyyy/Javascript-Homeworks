@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Underscore</title>
+    <script src="underscore.js"></script>
+</head>
+<body>
+    <div id="display"></div>
+</body>
+<script>
+
+    var students = [{ firstName: 'Todor', lastName: 'Asenov' },
+                   { firstName: 'Marin', lastName: 'Todorov' },
+                   { firstName: 'Stoyan', lastName: 'Marinov' },
+                   { firstName: 'Asen', lastName: 'Marinov' },
+                   { firstName: 'Todor', lastName: 'Dimitrov' },
+                   { firstName: 'Dimitar', lastName: 'Marinov' }
+    ];
+
+    var byFirstName = _
+                    .chain(students)
+                    .groupBy('firstName')
+                    .max(function (grouppedAuthors) { return grouppedAuthors.length })
+                    .value();
+
+    var byLastName = _
+                    .chain(students)
+                    .groupBy('lastName')
+                    .max(function (grouppedAuthors) { return grouppedAuthors.length })
+                    .value()
+
+    console.log(byFirstName[0].firstName);
+    console.log(byLastName[0].lastName);
+</script>
+</html>
+

@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\07. Check prime\bin\_07.Check_prime.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\07. Check prime\bin\_07.Check_prime.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\07. Check prime\obj\Debug\_07.Check_prime.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\07. Check prime\obj\Debug\_07.Check_prime.pdb

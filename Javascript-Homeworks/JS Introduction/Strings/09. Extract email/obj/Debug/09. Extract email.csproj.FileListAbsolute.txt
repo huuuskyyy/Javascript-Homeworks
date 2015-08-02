@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\09. Extract email\bin\_09.Extract_email.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\09. Extract email\bin\_09.Extract_email.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\09. Extract email\obj\Debug\_09.Extract_email.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\09. Extract email\obj\Debug\_09.Extract_email.pdb

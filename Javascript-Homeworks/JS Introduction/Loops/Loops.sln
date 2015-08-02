@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Print numbers", "01. Print numbers\01. Print numbers.csproj", "{32E45598-0062-4BA6-8CEB-174F13CF13E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Print numbers not divisible to 3 and 7", "02. Print numbers not divisible to 3 and 7\02. Print numbers not divisible to 3 and 7.csproj", "{05139317-9089-4639-8447-3B88E3CCEC04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Find min and max", "03. Find min and max\03. Find min and max.csproj", "{1051D93C-C799-4BCF-A703-7A20EAC9DFEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Order properties lexicographically", "04. Order properties lexicographically\04. Order properties lexicographically.csproj", "{AB34ABC3-53D5-43A6-8A7D-A9313CAF85DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32E45598-0062-4BA6-8CEB-174F13CF13E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E45598-0062-4BA6-8CEB-174F13CF13E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E45598-0062-4BA6-8CEB-174F13CF13E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E45598-0062-4BA6-8CEB-174F13CF13E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05139317-9089-4639-8447-3B88E3CCEC04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05139317-9089-4639-8447-3B88E3CCEC04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05139317-9089-4639-8447-3B88E3CCEC04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05139317-9089-4639-8447-3B88E3CCEC04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1051D93C-C799-4BCF-A703-7A20EAC9DFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1051D93C-C799-4BCF-A703-7A20EAC9DFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1051D93C-C799-4BCF-A703-7A20EAC9DFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1051D93C-C799-4BCF-A703-7A20EAC9DFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB34ABC3-53D5-43A6-8A7D-A9313CAF85DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB34ABC3-53D5-43A6-8A7D-A9313CAF85DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB34ABC3-53D5-43A6-8A7D-A9313CAF85DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB34ABC3-53D5-43A6-8A7D-A9313CAF85DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,43 @@
+﻿<!--Write a script that compares two char arrays lexicographically (letter by letter)-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Compare char arrays</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <br>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    var arrOne = ['y', 't', 'x', 'a', 'z', ],
+            arrTwo = ['y', 't', 'x', 'b', 'z', ],
+            i,
+            hasFirstArray = false;
+
+	    for (i = 0; i < arrOne.length; i++) {
+
+	        if (arrOne[i].length > 1 || arrOne[i].length === 0 || arrTwo[i].length > 1 || arrTwo[i].length === 0) {
+	            jsConsole.writeLine("One or both arrays contain string or empty char.");
+	            hasFirstArray = true;
+	            break;
+	        }
+	        if (arrOne[i] > arrTwo[i]) {
+	            jsConsole.writeLine("The second array is lexicographically first");
+	            hasFirstArray = true;
+	            break;
+	        }
+	        if (arrOne[i] < arrTwo[i]) {
+	            jsConsole.writeLine("The first array is lexicographically first");
+	            hasFirstArray = true;
+	            break;
+	        }
+	    }
+
+	    if (!hasFirstArray) {
+	        jsConsole.writeLine("Both arrays are equal");
+	    }
+	</script>
+</body>
+</html>

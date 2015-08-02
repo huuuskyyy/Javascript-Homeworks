@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\05. Count number is array\bin\_05.Count_number_is_array.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\05. Count number is array\bin\_05.Count_number_is_array.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\05. Count number is array\obj\Debug\_05.Count_number_is_array.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\05. Count number is array\obj\Debug\_05.Count_number_is_array.pdb

@@ -1,0 +1,37 @@
+﻿<!--Write an if statement that examines two integer variables and exchanges their values if the first one is greater than the second one-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exhange values</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>Enter 2 numbers. The numbers will be exhanged, if the first one is greater</p>
+    <label for="first">Enter first number</label>
+    <input type="text" id="first"/>
+    <label for="second">Enter second number</label>
+    <input type="text" id="second"/>
+    <button onclick = "CheckNumbers()">Check them</button>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+    <script>
+	    function CheckNumbers() {
+	        var firstNum = jsConsole.readFloat("#first"),
+                secondNum = jsConsole.readFloat("#second");
+
+	        if (firstNum <= secondNum) {
+	            jsConsole.writeLine("The first number is not greater than the second, so the values will not be exchanged");
+	        } else {
+	            firstNum ^= secondNum;
+	            secondNum ^= firstNum;
+	            firstNum ^= secondNum;
+
+	            jsConsole.writeLine("The first number is greater than the second one");
+	            jsConsole.writeLine("The first number now is " + firstNum);
+	            jsConsole.writeLine("The second number now is " + secondNum);
+	        }
+	    }
+	</script>
+</body>
+</html>

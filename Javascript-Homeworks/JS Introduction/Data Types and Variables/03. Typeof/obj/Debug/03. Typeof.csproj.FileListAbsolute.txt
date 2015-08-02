@@ -1,0 +1,9 @@
+c:\users\angel\documents\visual studio 2012\Projects\Data Types and Variables\03. Typeof\bin\_03.Typeof.dll
+c:\users\angel\documents\visual studio 2012\Projects\Data Types and Variables\03. Typeof\bin\_03.Typeof.pdb
+c:\users\angel\documents\visual studio 2012\Projects\Data Types and Variables\03. Typeof\obj\Debug\_03.Typeof.dll
+c:\users\angel\documents\visual studio 2012\Projects\Data Types and Variables\03. Typeof\obj\Debug\_03.Typeof.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Data Types and Variables\03. Typeof\bin\_03.Typeof.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Data Types and Variables\03. Typeof\bin\_03.Typeof.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Data Types and Variables\03. Typeof\obj\Debug\03. Typeof.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Data Types and Variables\03. Typeof\obj\Debug\_03.Typeof.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Data Types and Variables\03. Typeof\obj\Debug\_03.Typeof.pdb

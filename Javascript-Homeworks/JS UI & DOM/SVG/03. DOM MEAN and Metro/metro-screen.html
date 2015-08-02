@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Metro Window</title>
+    <link href="styles/metro-scree-styles.css" rel="stylesheet" />
+    <style>
+        #svg {
+            border: 1px solid black;
+            background-image: url('pics/background.png');
+        }
+    </style>
+</head>
+<body>
+    <svg id="svg" width="1100px" height="700px" xmlns="http://www.w3.org/2000/svg"></svg>
+    <script src="scripts/functions.js"></script>
+    <script src="scripts/drawMetroScreen.js"></script>
+    <script>
+        var svg = document.getElementById('svg');
+        var svgNS = 'http://www.w3.org/2000/svg';
+
+        drawMetroScreen();
+
+    </script>
+</body>
+</html>

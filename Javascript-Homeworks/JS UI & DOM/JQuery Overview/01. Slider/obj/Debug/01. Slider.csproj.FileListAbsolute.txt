@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\01. Slider\bin\_01.Slider.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\01. Slider\bin\_01.Slider.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\01. Slider\bin\_01.Slider.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\01. Slider\obj\Debug\01. Slider.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\01. Slider\obj\Debug\_01.Slider.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\01. Slider\obj\Debug\_01.Slider.pdb

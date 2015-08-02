@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Classical OOP JS\01. Canvas module\bin\_01.Canvas_module.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Classical OOP JS\01. Canvas module\bin\_01.Canvas_module.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Classical OOP JS\01. Canvas module\bin\_01.Canvas_module.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Classical OOP JS\01. Canvas module\obj\Debug\01. Canvas module.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Classical OOP JS\01. Canvas module\obj\Debug\_01.Canvas_module.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS OOP\Classical OOP JS\01. Canvas module\obj\Debug\_01.Canvas_module.pdb

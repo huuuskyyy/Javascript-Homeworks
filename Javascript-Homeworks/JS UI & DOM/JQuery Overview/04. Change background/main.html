@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Bouncing ball</title>
+    <script src="scripts/jquery-2.1.1.js"></script>
+</head>
+<body>
+    <script>
+       var $color = $('<input type="color" />');
+
+        $color.appendTo(document.body);
+
+        $('input[type ="color"]').change(function(){
+
+                          $('body').css('backgroundColor',this.value);
+
+                           });
+    </script>
+</body>
+</html>

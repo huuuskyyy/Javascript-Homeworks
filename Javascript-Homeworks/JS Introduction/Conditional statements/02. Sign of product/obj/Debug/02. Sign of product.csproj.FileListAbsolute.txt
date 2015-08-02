@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\02. Sign of product\bin\_02.Sign_of_product.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\02. Sign of product\bin\_02.Sign_of_product.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\02. Sign of product\obj\Debug\_02.Sign_of_product.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\02. Sign of product\obj\Debug\_02.Sign_of_product.pdb

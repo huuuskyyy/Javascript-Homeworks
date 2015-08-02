@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\06. Neightbours compare\bin\_06.Neightbours_compare.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\06. Neightbours compare\bin\_06.Neightbours_compare.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\06. Neightbours compare\obj\Debug\06. Neightbours compare.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\06. Neightbours compare\obj\Debug\_06.Neightbours_compare.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\06. Neightbours compare\obj\Debug\_06.Neightbours_compare.pdb

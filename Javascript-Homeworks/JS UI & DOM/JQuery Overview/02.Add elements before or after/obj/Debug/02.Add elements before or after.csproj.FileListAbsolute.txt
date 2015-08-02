@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\02.Add elements before or after\bin\02.Add elements before or after.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\02.Add elements before or after\bin\02.Add elements before or after.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\02.Add elements before or after\bin\02.Add elements before or after.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\02.Add elements before or after\obj\Debug\02.Add elements before or after.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JQuery Overview\02.Add elements before or after\obj\Debug\02.Add elements before or after.pdb

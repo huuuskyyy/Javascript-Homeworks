@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Metro Window</title>
+    <link href="styles/basic-styles.css" rel="stylesheet" />
+    <style>
+        #svg {
+    border: 1px solid black;
+    background-image: url(pics/background.png);
+}
+    </style>
+</head>
+<body>
+    <svg id="svg" width="1100px" height="700px" xmlns="http://www.w3.org/2000/svg">
+        <image xlink:href="pics/profile-photo.jpg" x="1000" y="50" width="50" height="50" />
+        <text class="header" x="900" y="70" fill="white">Anonymos</text>
+        <text class="explorer" x="948" y="90" fill="white">Anonym</text>
+
+        <text class="date" x="120" y="100" fill="white">Start</text>
+
+        <rect id="store" x="120" y="160" width="100" height="100" fill="#1C70EF" />
+        <text x="130" y="250" fill="white">Store</text>
+        <image xlink:href="pics/Marketplace.jpg" x="140" y="180" width="60" height="60" />
+        <rect id="maps" x="120" y="265" width="100" height="100" fill="#554094" />
+        <image xlink:href="pics/maps.jpg" x="140" y="285" width="60" height="60" />
+        <text x="130" y="355" fill="white">Maps</text>
+        <rect id="video" x="120" y="370" width="205" height="100" fill="#DB552C" />
+        <text x="130" y="460" fill="white">Video</text>
+        <image xlink:href="pics/video.jpg" x="180" y="380" width="80" height="80" />
+        <image xlink:href="pics/desktop.jpg" x="120" y="475" width="205" height="100" />
+        <text x="130" y="565" fill="white">Desktop</text>
+        <rect id="games" x="225" y="160" width="100" height="100" fill="#54A624" />
+        <text x="235" y="250" fill="white">Xbox Live Games</text>
+        <image xlink:href="pics/games.jpg" x="240" y="175" width="70" height="70" />
+        <rect id="internet-explorer" x="225" y="265" width="100" height="100" fill="#3B6EEB" />
+        <text x="235" y="355" fill="white">Internet Explorer</text>
+        <image xlink:href="pics/IE.jpg" x="235" y="270" width="80" height="80" />
+
+        <rect id="photos" x="330" y="160" width="205" height="100" fill="#AC193D" />
+        <text x="340" y="250" fill="white">Photos</text>
+        <image xlink:href="pics/photos.jpg" x="400" y="180" width="60" height="60" />
+        <rect id="messaging" x="330" y="265" width="205" height="100" fill="#593E9B" />
+        <text x="340" y="355" fill="white">Messaging</text>
+        <image xlink:href="pics/messeging.jpg" x="400" y="275" width="70" height="70" />
+        <rect id="mail" x="330" y="370" width="205" height="100" fill="#009F3C" />
+        <text class="header" x="340" y="400" fill="white">Lorem ipsum</text>
+        <text x="340" y="420" fill="white">dolor sit amet, vel cu legere noster </text>
+        <text x="340" y="435" fill="white"> percipit, vim ceteros vituperatoribus</text>
+        <text x="525" y="465" fill="white">3</text>
+        <image xlink:href="pics/small_mail.png" x="335" y="450" width="20" height="20" />
+        <rect id="weather" x="330" y="475" width="205" height="100" fill="#3C84ED" />
+        <text x="340" y="565" fill="white">Weather</text>
+        <image xlink:href="pics/weather.jpg" x="400" y="485" width="70" height="70" />
+
+        <rect id="calendar" x="540" y="160" width="205" height="100" fill="#008A00" />
+        <text x="550" y="250" fill="white">Calendar</text>
+        <text class="date" x="670" y="210" fill="white">12</text>
+        <text x="670" y="225" fill="white">Monday</text>
+        <text x="340" y="565" fill="white">Weather</text>
+        <rect id="people" x="540" y="265" width="205" height="100" fill="#D24726" />
+        <image xlink:href="pics/People.jpg" x="550" y="340" width="25" height="25" />
+        <image xlink:href="pics/people-inside-pic.jpg" x="550" y="275" width="65" height="65" />
+        <text x="620" y="285" fill="white">Some text that needs</text>
+        <text x="620" y="300" fill="white">to be entered here, so it </text>
+        <text x="620" y="315" fill="white">looks like the original</text>
+        <rect id="specific-game" x="540" y="370" width="100" height="100" fill="black" />
+        <image xlink:href="pics/pinball.jpg" x="540" y="370" width="100" height="100" />
+        <text x="550" y="460" fill="white">Pinball 2</text>
+        <rect id="camera" x="540" y="475" width="100" height="100" fill="#AC193D" />
+        <image xlink:href="pics/camera.jpg" x="560" y="495" width="60" height="60" />
+        <text x="550" y="565" fill="white">Camera</text>
+        <rect id="solitaire" x="645" y="370" width="100" height="100" fill="#3D84EE" />
+        <image xlink:href="pics/solitaire.jpg" x="665" y="385" width="60" height="60" />
+        <text x="655" y="460" fill="white">Solitaire</text>
+        <rect id="xbox" x="645" y="475" width="100" height="100" fill="#53A51C" />
+        <image xlink:href="pics/xbox.jpg" x="665" y="490" width="60" height="60" />
+        <text x="655" y="565" fill="white">Xbox Companion</text>
+
+        <rect id="music" x="785" y="160" width="205" height="100" fill="#593E9B" />
+        <image xlink:href="pics/music.jpg" x="855" y="175" width="70" height="70" />
+        <text x="795" y="250" fill="white">Music</text>
+        <rect id="finance" x="785" y="265" width="205" height="100" fill="#008C1B" />
+        <image xlink:href="pics/finance.jpg" x="855" y="275" width="70" height="70" />
+        <text x="795" y="355" fill="white">Finance</text>
+        <rect id="reader" x="785" y="370" width="100" height="100" fill="#D24C27" />
+        <image xlink:href="pics/reader.jpg" x="805" y="385" width="60" height="60" />
+        <text x="795" y="460" fill="white">Reader</text>
+        <rect id="windows-explorer" x="890" y="370" width="100" height="100" fill="#094AB2" />
+        <text class="explorer" x="900" y="390" fill="white">Windows</text>
+        <text class="explorer" x="900" y="405" fill="white">Explorer</text>
+        <image xlink:href="pics/folder.jpg" x="900" y="430" width="25" height="25" />
+        <rect id="wordpress-pic" x="785" y="475" width="205" height="70" fill="#2E8DEF" />
+        <image xlink:href="pics/windows-desktop.jpg" x="785" y="475" width="205" height="70" />
+        <rect id="wordpress-logo" x="785" y="545" width="205" height="30" fill="#207499" />
+        <image xlink:href="pics/wordpress.jpg" x="795" y="545" width="30" height="30" />
+        <text x="830" y="560" fill="white">Some text about Wordpress here</text>
+
+        <image xlink:href="pics/cat-picture.jpg" x="977" y="160" width="170" height="100" />
+        <rect id="ease-access" x="995" y="265" width="205" height="100" fill="#476DD0" />
+        <image xlink:href="pics/ease-access.jpg" x="1040" y="280" width="70" height="70" />
+        <rect id="skydrive" x="995" y="370" width="205" height="100" fill="#3D84EE" />
+        <image xlink:href="pics/skydrive.jpg" x="1035" y="380" width="70" height="70" />
+        <text x="1005" y="460" fill="white">SkyDrive</text>
+    </svg>
+</body>
+</html>

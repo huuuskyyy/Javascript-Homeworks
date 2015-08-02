@@ -1,0 +1,12 @@
+C:\Users\Angel\Documents\GitHub\Raphael SVG\02. Spiral\bin\_02.Spiral.dll.config
+C:\Users\Angel\Documents\GitHub\Raphael SVG\02. Spiral\bin\_02.Spiral.dll
+C:\Users\Angel\Documents\GitHub\Raphael SVG\02. Spiral\bin\_02.Spiral.pdb
+C:\Users\Angel\Documents\GitHub\Raphael SVG\02. Spiral\obj\Debug\02. Spiral.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\GitHub\Raphael SVG\02. Spiral\obj\Debug\_02.Spiral.dll
+C:\Users\Angel\Documents\GitHub\Raphael SVG\02. Spiral\obj\Debug\_02.Spiral.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Raphael SVG\02. Spiral\bin\_02.Spiral.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Raphael SVG\02. Spiral\bin\_02.Spiral.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Raphael SVG\02. Spiral\bin\_02.Spiral.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Raphael SVG\02. Spiral\obj\Debug\02. Spiral.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Raphael SVG\02. Spiral\obj\Debug\_02.Spiral.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Raphael SVG\02. Spiral\obj\Debug\_02.Spiral.pdb

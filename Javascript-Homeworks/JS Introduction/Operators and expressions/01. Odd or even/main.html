@@ -1,0 +1,27 @@
+﻿<!--Write an expression that checks if given integer is odd or even.-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Odd or even</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>Find if a number is odd or even</p>
+    <input type="text" id="input_field"/>
+    <button onclick = "OddOrEvenFunction()">Find the answer</button>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    function OddOrEvenFunction() {
+	        var userInput = jsConsole.readFloat("#input_field");
+
+	        if (userInput % 2 === 0) {
+	            jsConsole.writeLine(userInput + " is even");
+	        } else {
+	            jsConsole.writeLine(userInput + " is odd");
+	        }
+	    }
+	</script>
+</body>
+</html>

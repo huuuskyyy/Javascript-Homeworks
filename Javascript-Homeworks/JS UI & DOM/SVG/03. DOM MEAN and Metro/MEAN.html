@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>MEAN</title>
+    <link href="styles/mean-styles.css" rel="stylesheet" />
+    <style>
+        #svg {
+            border: 1px solid black;
+            margin: 50px;
+            background: #F0F0DA;
+        }
+        
+    </style>
+</head>
+<body>
+    <svg id="svg" width="300" height="425" xmlns="http://www.w3.org/2000/svg"></svg>
+    <script src="scripts/functions.js"></script>
+    <script src="scripts/drawMEAN.js"></script>
+        <script>
+
+            var svg = document.getElementById('svg');
+            var svgNS = 'http://www.w3.org/2000/svg';
+
+            drawMEAN();
+
+        </script>
+</body>
+</html>

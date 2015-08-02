@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\01. Planar coordinate system\bin\_01.Planar_coordinate_system.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\01. Planar coordinate system\bin\_01.Planar_coordinate_system.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\01. Planar coordinate system\obj\Debug\01. Planar coordinate system.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\01. Planar coordinate system\obj\Debug\_01.Planar_coordinate_system.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Using Objects\01. Planar coordinate system\obj\Debug\_01.Planar_coordinate_system.pdb

@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Read number</title>
+</head>
+<body>
+    <div id="js-console"></div>
+    <br />
+    <script src="js-console.js"></script>
+    <script>
+        function Solve(params) {
+
+            for (var position in params) {
+                params[position] = params[position].split(" ");
+            }
+
+            var maxRows = parseInt(params[0][0]),
+                maxCols = parseInt(params[0][1]),
+                totalJumps = parseInt(params[0][2]),
+                currentRow = parseInt(params[1][0]),
+                currentCol = parseInt(params[1][1]),
+                arrayAlreadyJumped = [],
+                jumpCounter = 0,
+                scoreCounter = 0,
+                i,
+                resultString = "",
+                positionChecker;
+
+            for (i = 2, length = params.length; i < length; i++) {
+
+                if (currentRow < 0 || currentRow >= maxRows || currentCol < 0 || currentCol >= maxCols) {
+
+                    resultString = "escaped " + scoreCounter;
+                    break;
+                }
+                positionChecker = ((currentCol + 1) + (currentRow * maxCols)).toString();
+                if (arrayAlreadyJumped[positionChecker]) {
+
+                    resultString = "caught " + jumpCounter;
+                    break;
+                }
+                scoreCounter += ((currentCol + 1) + (currentRow * maxCols));
+                currentRow += parseInt(params[i][0]);
+                currentCol += parseInt(params[i][1]);
+                jumpCounter++;
+                arrayAlreadyJumped[positionChecker] = true;
+
+                if (i === length - 1) {
+                    i = 1;
+                }
+            }
+            return resultString;
+        }
+    </script>
+</body>
+</html>
+

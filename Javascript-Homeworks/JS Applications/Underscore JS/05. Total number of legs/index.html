@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Underscore</title>
+    <script src="underscore.js"></script>
+</head>
+<body>
+</body>
+<script>;
+
+    var animals = [{ species: 'mammal', class: 'horse', legs: 4 },
+                    { species: 'mammal', class: 'dolphin', legs: 0 },
+                    { species: 'insect', class: 'spider', legs: 8 },
+                    { species: 'bird', class: 'pigeon', legs: 2 },
+                    { species: 'mammal', class: 'kangaroo', legs: 2 },
+                    { species: 'insect', class: 'ant', legs: 6 }
+    ];
+
+    function sortAnimalsByLegs(animalsGroup) {
+        return _.sortBy(animalsGroup, 'legs')
+    }
+
+    var totalLegs = 0;
+
+    var groupedAnimals = _
+                    .chain(animals)
+                    .pluck('legs')
+                    .each(function (legs) { totalLegs += legs })
+
+    console.log(totalLegs);
+</script>
+</html>

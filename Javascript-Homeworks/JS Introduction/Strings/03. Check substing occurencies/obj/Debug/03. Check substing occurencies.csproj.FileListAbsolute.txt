@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\03. Check substing occurencies\bin\_03.Check_substing_occurencies.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\03. Check substing occurencies\bin\_03.Check_substing_occurencies.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\03. Check substing occurencies\obj\Debug\_03.Check_substing_occurencies.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\03. Check substing occurencies\obj\Debug\_03.Check_substing_occurencies.pdb

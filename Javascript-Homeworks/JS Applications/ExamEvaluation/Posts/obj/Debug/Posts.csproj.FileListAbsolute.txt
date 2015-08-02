@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\ExamEvaluation\Posts\bin\Posts.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\ExamEvaluation\Posts\bin\Posts.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\ExamEvaluation\Posts\bin\Posts.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\ExamEvaluation\Posts\obj\Debug\Posts.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\ExamEvaluation\Posts\obj\Debug\Posts.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\ExamEvaluation\Posts\obj\Debug\Posts.pdb

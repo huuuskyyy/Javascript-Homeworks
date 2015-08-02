@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\02. Check brackets\bin\_02.Check_brackets.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\02. Check brackets\bin\_02.Check_brackets.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\02. Check brackets\obj\Debug\_02.Check_brackets.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\02. Check brackets\obj\Debug\_02.Check_brackets.pdb

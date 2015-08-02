@@ -1,0 +1,40 @@
+﻿<!--Write a function that returns the last digit of given integer as an English word. 
+Examples: 512  "two", 1024  "four", 12309  "nine"-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Last digit</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>Enter a digit and the function will give you back the last digit as a text</p>
+    <br>
+    <label for="input">Enter a number</label>
+    <input type ="text" id="input"/>
+    <button onclick ="readDigit()">Get the last digit</button>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    function readDigit() {
+	        var number = jsConsole.readFloat("#input"),
+                lastDigit = number % 10,
+                digitToText;
+
+	        switch (lastDigit) {
+	            case 0: digitToText = "ZERO"; break;
+	            case 1: digitToText = "ONE"; break;
+	            case 2: digitToText = "TWO"; break;
+	            case 3: digitToText = "THREE"; break;
+	            case 4: digitToText = "FOUR"; break;
+	            case 5: digitToText = "FIVE"; break;
+	            case 6: digitToText = "SIX"; break;
+	            case 7: digitToText = "SEVEN"; break;
+	            case 8: digitToText = "EIGHT"; break;
+	            case 9: digitToText = "NINE"; break;
+	        }
+	        jsConsole.writeLine("The last digit is " + digitToText);
+	    }
+	</script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+﻿<!--Write a script that finds the maximal sequence of equal elements in an array.
+		Example: {2, 1, 1, 2, 3, 3, 2, 2, 2, 1}  {2, 2, 2}.-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Longest siquence</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <br>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    var arrOne = ['y', 't', 'x', 'z', 'b', 'y', 'y', 'y', 'z', 'b'],
+            arrTwo = [1, 2, 3, 4, 6, 3, 3, 4, 4, 4, 4, 4, 2, 2],
+            i,
+            start,
+            tempStart = 0,
+            count = 0,
+            tempCount = 1,
+            element;
+        
+	    for(i = 0, length = arrOne.length; i < length; i++){
+                   
+	        if(i === 0){
+	            element = arrOne[i];
+	            continue;
+	        }
+	        if(element === arrOne[i]){
+	            tempCount++;
+	        } else{
+                       
+	            if(tempCount>count) {
+	                count = tempCount; 
+	                start = tempStart;
+	            }
+	            element = arrOne[i];
+	            tempStart = i;
+	            tempCount = 1;
+	        }
+	    }
+             
+	    jsConsole.writeLine("The first longest sequence is ");
+
+	    for(i=start; i<(start+count); i++){
+	        jsConsole.write(arrOne[i]);
+	    }
+
+	    for (i = 0; i < arrTwo.length; i++) {
+
+	        if (i === 0) {
+	            element = arrTwo[i];
+	            continue;
+	        }
+	        if (element === arrTwo[i]) {
+	            tempCount++;
+	        } else {
+
+	            if (tempCount > count) {
+	                count = tempCount;
+	                start = tempStart;
+	            }
+	            element = arrTwo[i];
+	            tempStart = i;
+	            tempCount = 1;
+	        }
+	    }
+
+	    jsConsole.writeLine(" ");
+	    jsConsole.writeLine("The second longest sequence is ");
+
+	    for (i = start; i < (start + count) ; i++) {
+	        jsConsole.write(arrTwo[i]);
+	    }
+	</script>
+</body>
+</html>

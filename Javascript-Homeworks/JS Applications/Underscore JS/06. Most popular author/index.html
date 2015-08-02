@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Underscore</title>
+    <script src="underscore.js"></script>
+</head>
+<body>
+    <div id="display"></div>
+</body>
+<script>
+
+    var books = [{ book: 'Book1', author: 'John Doe' },
+                    { book: 'Book2', author: 'John Doe' },
+                    { book: 'Book3', author: 'Jane Doe' },
+                    { book: 'Book4', author: 'Nakov' },
+                    { book: 'Book5', author: 'John Doe' },
+                    { book: 'Book6', author: 'Jane Doe' }
+    ];
+
+    var sortedAuthors = _
+                    .chain(books)
+                    .groupBy('author')
+                    .max(function (grouppedAuthors) { return grouppedAuthors.length })
+                    .value();
+
+    console.log(sortedAuthors[0].author);
+</script>
+</html>

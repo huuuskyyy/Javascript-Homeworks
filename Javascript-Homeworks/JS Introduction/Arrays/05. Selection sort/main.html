@@ -1,0 +1,43 @@
+﻿<!--Sorting an array means to arrange its elements in increasing order. Write a script to sort an array.
+ Use the "selection sort" algorithm: Find the smallest element, move it at the first position,
+ find the smallest from the rest, move it at the second position, etc.-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selection sort</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <br>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    var arr = [5, 12, 6, 1, 0, 3, 33, 4, 8, 9, 7, 44, 2],
+            i,
+            j,
+            smallestBase,
+            tempNum,
+            position;
+        
+	    for (i = 0, length = arr.length; i < length; i++) {
+
+	        smallestBase = arr[i];
+                   
+	        for(j = i; j< length; j++){
+	            if(arr[j]<smallestBase){
+	                smallestBase = arr[j];
+	                position = j;
+	            }
+	        }
+                   
+	        tempNum = arr[i];
+	        arr[i] = smallestBase;
+	        arr[position] = tempNum;
+	    }
+             
+	    jsConsole.writeLine(arr);
+        
+	</script>
+</body>
+</html>

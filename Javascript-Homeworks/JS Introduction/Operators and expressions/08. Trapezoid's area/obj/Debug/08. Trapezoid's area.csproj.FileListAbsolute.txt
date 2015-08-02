@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\08. Trapezoid's area\bin\_08.Trapezoid_s_area.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\08. Trapezoid's area\bin\_08.Trapezoid_s_area.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\08. Trapezoid's area\obj\Debug\_08.Trapezoid_s_area.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\08. Trapezoid's area\obj\Debug\_08.Trapezoid_s_area.pdb

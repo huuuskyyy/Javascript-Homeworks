@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <script src="app.js"></script>
+    <script src="units.js"></script>
+    <script src="engine.js"></script>
+</head>
+<body>
+    <h1>TypeScript HTML App</h1>
+
+    <div id="content"></div>
+    <script>
+        var marine = new Units.Marine(100, 15, 100, 100, 5);
+        var hydra = new Units.Hydra(90, 17, 100, 100, 6);
+        marine.throwGranade();
+        hydra.thickSkin();
+        var engine = new Engine.Engine();
+
+        engine.handleBattle(marine, hydra);
+        console.log(engine);
+        console.log(marine);
+        console.log(hydra);
+
+        var wraith = new Units.Wraith(150, 7, 100, 100, 15);
+        var mutalisk = new Units.Mutalisk(90, 17, 100, 100, 3);
+        wraith.repair();
+        mutalisk.heal();
+
+        engine.handleBattle(wraith, mutalisk);
+        console.log(engine);
+        console.log(marine);
+        console.log(hydra);
+    </script>
+</body>
+
+</html>

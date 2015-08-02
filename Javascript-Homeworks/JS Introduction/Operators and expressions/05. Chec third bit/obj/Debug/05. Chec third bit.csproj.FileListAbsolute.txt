@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\05. Chec third bit\bin\_05.Chec_third_bit.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\05. Chec third bit\bin\_05.Chec_third_bit.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\05. Chec third bit\obj\Debug\_05.Chec_third_bit.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\05. Chec third bit\obj\Debug\_05.Chec_third_bit.pdb

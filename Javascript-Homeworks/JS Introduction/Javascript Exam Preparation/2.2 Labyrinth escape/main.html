@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Read number</title>
+</head>
+<body>
+    <div id="js-console"></div>
+    <br />
+    <script src="js-console.js"></script>
+    <script>
+        function Solve(args) {
+
+            var maxRows,
+                maxColumns,
+                currentRow,
+                currentColumn,
+                sumCounter,
+                pathCounter,
+                tempArrayConverter,
+                symbol,
+                output,
+                passedPositions = [];
+
+            tempArrayConverter = args[0].split(' ');
+            maxRows = parseInt(tempArrayConverter[0]);
+            maxColumns = parseInt(tempArrayConverter[1]);
+
+            tempArrayConverter = args[1].split(' ');
+            currentRow = parseInt(tempArrayConverter[0]);
+            currentColumn = parseInt(tempArrayConverter[1]);
+
+            args = args.splice(2);
+
+            symbol = args[currentRow][currentColumn];
+            sumCounter = currentRow * maxColumns + currentColumn + 1;
+            passedPositions[currentRow * maxColumns + currentColumn + 1] = true;
+            pathCounter = 1;
+
+            while (true) {
+
+                switch (symbol) {
+                    case 'l': currentColumn--; break;
+                    case 'r': currentColumn++; break;
+                    case 'u': currentRow--; break;
+                    case 'd': currentRow++; break;
+                }
+
+                if (currentColumn < 0 || currentColumn === maxColumns || currentRow < 0 || currentRow === maxRows) {
+
+                    output = 'out ' + sumCounter;
+                    break;
+                }
+
+                if (passedPositions[currentRow * maxColumns + currentColumn + 1]) {
+
+                    output = 'lost ' + pathCounter;
+                    break;
+                }
+
+                symbol = args[currentRow][currentColumn];
+                sumCounter += currentRow * maxColumns + currentColumn + 1;
+                passedPositions[currentRow * maxColumns + currentColumn + 1] = true;
+                pathCounter++;
+            }
+            return output;
+        }
+    </script>
+</body>
+</html>
+

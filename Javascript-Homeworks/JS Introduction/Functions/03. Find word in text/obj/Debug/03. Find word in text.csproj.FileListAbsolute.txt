@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\03. Find word in text\bin\_03.Find_word_in_text.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\03. Find word in text\bin\_03.Find_word_in_text.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\03. Find word in text\obj\Debug\_03.Find_word_in_text.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\03. Find word in text\obj\Debug\_03.Find_word_in_text.pdb

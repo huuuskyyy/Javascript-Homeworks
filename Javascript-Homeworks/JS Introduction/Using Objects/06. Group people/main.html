@@ -1,0 +1,102 @@
+﻿<!--Write a function that groups an array of persons by age, first or last name. 
+The function must return an associative array, with keys - the groups, and values -arrays with persons in this groups
+Use function overloading (i.e. just one function)-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Points and lines</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+
+	    function createPerson(firstName, lastName, age) {
+
+	        return {
+	            firstName: firstName,
+	            lastName: lastName,
+	            age: age,
+	            toString: function () {
+	                return this.firstName + " " + this.lastName + " " + this.age;
+	            }
+	        }
+	    }
+
+	    function groupPeople(targetArray, condition) {
+
+	        var resultArray = [],
+                added;
+
+	        for (var i = 0; i < targetArray.length; i++) {
+
+	            added = false;
+
+	            for (var prop in resultArray) {
+
+	                if (prop == targetArray[i][condition]) {
+
+	                    resultArray[prop.toString()].push(targetArray[i]);
+	                    added = true;
+	                    break;
+	                }
+	            }
+	            if (!added) {
+
+	                var property = targetArray[i][condition].toString();
+	                resultArray[property] = [];
+	                resultArray[property].push(targetArray[i]);
+	            }
+	        }
+	        return resultArray;
+	    }
+
+	    var arrayPeople = [],
+            firstPerson = createPerson("Ivan", "Goshov", 66),
+            secondPerson = createPerson("Petar", "Ivanov", 33),
+            thirdPerson = createPerson("Gosho", "Kolev", 66),
+            fourthPerson = createPerson("Petar", "Goshov", 55),
+            fifthPerson = createPerson("Kolio", "Kolev", 33);
+
+	    arrayPeople.push(firstPerson);
+	    arrayPeople.push(secondPerson);
+	    arrayPeople.push(thirdPerson);
+	    arrayPeople.push(fourthPerson);
+	    arrayPeople.push(fifthPerson);
+
+	    jsConsole.writeLine("INITIAL ARRAY");
+	    jsConsole.writeLine(arrayPeople[0]["firstName"]);
+	    jsConsole.writeLine(" ");
+
+	    jsConsole.writeLine("GROUPED BY AGE");
+	    var sortedAge = groupPeople(arrayPeople, "age");
+	    for (var prop in sortedAge) {
+	        jsConsole.writeLine(sortedAge[prop]);
+
+	    }
+	  
+	    jsConsole.writeLine(" ");
+	    jsConsole.writeLine("GROUPED BY FIRST NAME");
+	    var sortedFirstName = groupPeople(arrayPeople, "firstName");
+	    for (var prop in sortedFirstName) {
+	        jsConsole.writeLine(sortedFirstName[prop]);
+
+	    }
+
+	    jsConsole.writeLine(" ");
+	    jsConsole.writeLine("GROUPED BY LAST NAME");
+	    var sortedLastName = groupPeople(arrayPeople, "lastName");
+	    jsConsole.writeLine(sortedLastName);
+	    for (var prop in sortedLastName) {
+	        jsConsole.writeLine(sortedLastName[prop]);
+
+	    }
+	</script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\JS Applications Exam\01. Crowd share\bin\_01.Crowd_share.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\JS Applications Exam\01. Crowd share\bin\_01.Crowd_share.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\JS Applications Exam\01. Crowd share\bin\_01.Crowd_share.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\JS Applications Exam\01. Crowd share\obj\Debug\01. Crowd share.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\JS Applications Exam\01. Crowd share\obj\Debug\_01.Crowd_share.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS Applications\JS Applications Exam\01. Crowd share\obj\Debug\_01.Crowd_share.pdb

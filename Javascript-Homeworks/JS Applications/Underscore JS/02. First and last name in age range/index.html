@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Underscore</title>
+    <script src="underscore.js"></script>
+</head>
+<body>
+    <div id="display"></div>
+</body>
+<script>
+    var display = document.getElementById('display');
+    var content = document.createElement('div');
+
+    var students = [{ firstName: 'Petar', lastName: 'Asenov', age: 15 },
+                    { firstName: 'Marin', lastName: 'Todorov', age: 25 },
+                    { firstName: 'Stoyan', lastName: 'Petrov', age: 19 },
+                    { firstName: 'Asen', lastName: 'Marinov', age: 35 },
+                    { firstName: 'Todor', lastName: 'Dimitrov', age: 22 },
+                    { firstName: 'Dimitar', lastName: 'Stoyanov', age: 20 }
+    ];
+
+    function checkAgeWithinRange(student) {
+
+        return student.age >= 18 && student.age <= 24;
+
+    }
+
+    function addNewStudentNames(student) {
+        content.innerHTML += '<br>' + student.firstName + "  " + student.lastName;
+    }
+
+    var filtered = _
+                    .chain(students)
+                    .filter(checkAgeWithinRange)
+                    .each(addNewStudentNames);
+
+    display.appendChild(content);
+</script>
+</html>

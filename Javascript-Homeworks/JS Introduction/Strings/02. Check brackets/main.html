@@ -1,0 +1,50 @@
+﻿<!--Write a JavaScript function to check if in a given expression the brackets are put correctly-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Check brackets</title>
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+
+        var correctBrackets = "((a+b)/5-d)",
+            incorrectBrackets = ")(a+b))",
+            counter = 0,
+            i;
+
+        jsConsole.writeLine(checkBrackets(correctBrackets));
+        jsConsole.writeLine(checkBrackets(incorrectBrackets));
+
+        function checkBrackets(stringToCheck) {
+
+            var isCorrect = true;
+
+            for (i = 0, length = stringToCheck.length; i < length; i++) {
+
+                if (stringToCheck[i] === ")") {
+
+                    counter--;
+                } else if (stringToCheck[i] === "(") {
+
+                    counter++;
+                }
+
+                if (counter < 0) {
+
+                    break;
+                }
+
+            }
+
+            if (counter === 0) {
+                return jsConsole.writeLine(stringToCheck+" "+ true);
+            } else {
+                return jsConsole.writeLine(stringToCheck + " " + false);
+            }
+
+        }
+    </script>
+</body>
+</html>

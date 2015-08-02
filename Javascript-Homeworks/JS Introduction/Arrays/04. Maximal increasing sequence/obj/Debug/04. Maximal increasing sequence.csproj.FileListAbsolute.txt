@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\04. Maximal increasing sequence\bin\_04.Maximal_increasing_sequence.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\04. Maximal increasing sequence\bin\_04.Maximal_increasing_sequence.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\04. Maximal increasing sequence\obj\Debug\_04.Maximal_increasing_sequence.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Arrays\04. Maximal increasing sequence\obj\Debug\_04.Maximal_increasing_sequence.pdb

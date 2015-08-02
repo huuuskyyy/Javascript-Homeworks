@@ -1,0 +1,73 @@
+﻿body, html, aside, h1, h2, header, label, input, button, section, div {
+    margin:0;
+    padding:0;
+}
+body {
+    width:auto;
+    height: 600px;
+}
+header {
+    text-align:center;
+    margin-bottom:3%;
+    margin-top:2%;
+    color: #1d5981;
+    font-size:35px;
+}
+aside {
+    width:30%;
+    height:45%;
+    border: 10px dotted rgba(79, 150, 228, 0.81);
+    border-radius:15px;
+    display:inline-block;
+    float:left;
+    margin-left:1%;
+}
+label {
+    display: block;
+    color: #1d5981;
+} 
+#input-user-text {
+    width:85%;
+    height:70px;
+}
+button, input, label {
+   margin:2%;
+}
+button {
+   width:30%;
+   float:right;
+   margin-right:12%;
+   background-color:rgba(79, 150, 228, 0.81);
+   color: whitesmoke;
+}
+section {
+    width:60%;
+    height:80%;
+    display:inline-block;
+    border: 1px solid black;
+    overflow:auto;
+    margin-left:2%;
+    border: 10px dotted rgba(79, 150, 228, 0.81);
+    border-radius:15px;
+    text-align:center;
+}
+section div {
+    border: 10px solid #6be0f1;
+    border-radius:10px;
+    display:inline-block;
+    width:80%;
+    margin:1%;
+    text-align:center;
+    overflow:auto;
+}
+h2 {
+    border-bottom: 10px solid #6be0f1;;
+    text-align:center;
+    color:#db7c7c;
+    background-color:#87eaa7;
+}
+p {
+    padding-left:5%;
+    text-align:center;
+    font-weight:bold;
+}

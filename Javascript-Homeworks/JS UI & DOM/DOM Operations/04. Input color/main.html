@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Color input</title>
+</head>
+<body>
+    <textarea id='input'>Some input here</textarea>
+    <br>
+    <label for="text-color">Choose the color of the text</label>
+    <input id="text-color" type="color" onchange="changeTextColor(this)">
+    <br>
+    <label for="background-text-color">Choose the color of the background</label>
+    <input id="background-text-color" type="color" onchange="changeBackgroundTextColor(this)">
+    <script>
+   function changeTextColor(color) {
+
+        document.getElementById('input').style.color = color.value;
+    }
+
+   function changeBackgroundTextColor(color) {
+
+        document.getElementById('input').style.backgroundColor = color.value;
+    }
+    </script>
+</body>
+</html>

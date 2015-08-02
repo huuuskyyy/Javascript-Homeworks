@@ -1,0 +1,5 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\01. Last digit as word\bin\_01.Last_digit_as_word.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\01. Last digit as word\bin\_01.Last_digit_as_word.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\01. Last digit as word\obj\Debug\01. Last digit as word.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\01. Last digit as word\obj\Debug\_01.Last_digit_as_word.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Functions\01. Last digit as word\obj\Debug\_01.Last_digit_as_word.pdb

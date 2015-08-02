@@ -1,0 +1,9 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\02.Get input value\bin\02.Get input value.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\02.Get input value\bin\02.Get input value.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\02.Get input value\bin\02.Get input value.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\02.Get input value\bin\02.Get input value.xml
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\02.Get input value\obj\Debug\_02.Get_input_value.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\02.Get input value\obj\Debug\02.Get input value.vbproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\02.Get input value\obj\Debug\02.Get input value.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\02.Get input value\obj\Debug\02.Get input value.xml
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\Document-Object Model\02.Get input value\obj\Debug\02.Get input value.pdb

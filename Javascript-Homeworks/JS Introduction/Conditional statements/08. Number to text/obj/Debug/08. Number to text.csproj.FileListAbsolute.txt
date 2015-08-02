@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\08. Number to text\bin\_08.Number_to_text.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\08. Number to text\bin\_08.Number_to_text.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\08. Number to text\obj\Debug\_08.Number_to_text.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Conditional statements\08. Number to text\obj\Debug\_08.Number_to_text.pdb

@@ -1,0 +1,48 @@
+﻿<!--Write a program that finds the most frequent number in an array. Example:
+	{4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3}  4 (5 times)-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Most frequent number</title>
+	<link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <br>
+	<div id="js-console"></div>	
+    <br/>
+	<script src="js-console.js"></script>
+	<script>
+	    var arr = [5, 6, 1, 0, 3, 1, 8, 9, 7, 1],
+            arrHelper = new Array(1),
+            arrCounter = new Array(1),
+            position = 0,
+            tempPosition,
+            biggestFrequency = 0,
+            resultPosition;
+
+	    for (i = 0, length = arr.length; i < length; i++) {
+
+	        if (arrHelper.indexOf(arr[i]) === -1) {
+	            arrHelper[position] = arr[i];
+	            arrCounter[position] = 1;
+	            position++;
+	        } else {
+	            tempPosition = arrHelper.indexOf(arr[i]);
+	            arrCounter[tempPosition] += 1;
+	        }
+	    }
+	    for (i = 0, length = arrCounter.length; i < length; i++) {
+
+	        if (arrCounter[i] > biggestFrequency) {
+	            biggestFrequency = arrCounter[i];
+	            resultPosition = i;
+	        }
+	    }
+
+	    jsConsole.writeLine("The array is [" + arr+"]");
+	    jsConsole.writeLine("The most frequent number is " + arrHelper[resultPosition]);
+	    jsConsole.writeLine("It appears " + arrCounter[resultPosition] + " time");
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\06. Check, if point is within a circle\bin\_06.Check__if_point_is_within_a_circle.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\06. Check, if point is within a circle\bin\_06.Check__if_point_is_within_a_circle.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\06. Check, if point is within a circle\obj\Debug\_06.Check__if_point_is_within_a_circle.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\06. Check, if point is within a circle\obj\Debug\_06.Check__if_point_is_within_a_circle.pdb

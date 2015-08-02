@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Handlebars list view with DOM</title>
+    <script src="scripts/handlebars-v1.3.0.js"></script>
+    <script src="scripts/jquery-2.1.1.js"></script>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/listview-dom.js"></script>
+    <style>
+        table {
+            border-collapse:collapse;
+        }
+        tr, td, th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr><th>#</th><th>Name</th><th>Mark</th></tr>
+        </thead>
+        <tbody id="students-table">
+            <tr class="student-row">
+                <td>{{number}}</td>
+                <td>{{name}}</td>
+                <td>{{mark}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        $('#students-table').listView(students);
+    </script>
+</body>
+</html>

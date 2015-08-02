@@ -1,0 +1,10 @@
+c:\users\angel\documents\visual studio 2012\Projects\Operators and expressions\01. Odd or even\bin\_01.Odd_or_even.dll
+c:\users\angel\documents\visual studio 2012\Projects\Operators and expressions\01. Odd or even\bin\_01.Odd_or_even.pdb
+c:\users\angel\documents\visual studio 2012\Projects\Operators and expressions\01. Odd or even\obj\Debug\01. Odd or even.csprojResolveAssemblyReference.cache
+c:\users\angel\documents\visual studio 2012\Projects\Operators and expressions\01. Odd or even\obj\Debug\_01.Odd_or_even.dll
+c:\users\angel\documents\visual studio 2012\Projects\Operators and expressions\01. Odd or even\obj\Debug\_01.Odd_or_even.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\01. Odd or even\bin\_01.Odd_or_even.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\01. Odd or even\bin\_01.Odd_or_even.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\01. Odd or even\obj\Debug\01. Odd or even.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\01. Odd or even\obj\Debug\_01.Odd_or_even.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\01. Odd or even\obj\Debug\_01.Odd_or_even.pdb

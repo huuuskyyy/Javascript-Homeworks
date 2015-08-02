@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\04. Change text by tags\bin\_04.Change_text_by_tags.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\04. Change text by tags\bin\_04.Change_text_by_tags.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\04. Change text by tags\obj\Debug\_04.Change_text_by_tags.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Strings\04. Change text by tags\obj\Debug\_04.Change_text_by_tags.pdb

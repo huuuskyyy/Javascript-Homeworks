@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Mario</title>
+    <style>
+        #svg-container {
+            border: 1px solid black;
+        }
+
+        #canvas {
+            position: absolute;
+            margin-top: 390px;
+            margin-left: 200px;
+            z-index:;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="150" height="150"></canvas>
+    <script src="scripts/raphael-min.js"></script>
+    <script>
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        var start = 50;
+        var picWidth = 31;
+        var startPositionCollection = [50, 81, 110, 191];
+        var picWidthCollection = [31, 31, 30, 30];
+        var xCor = 0;
+        var y = 0;
+        var position = 0;
+
+        var spriteImage = new Image();
+        spriteImage.src = 'pics/Mario_sprites.png';
+        var paper = Raphael(0, 0, 600, 400);
+        var backgroundOne = paper.image('pics/mario-bc.png', 0, 0, 600, 400);
+        var backgroundTwo = paper.image('pics/mario-bc.png', 600, 0, 600,
+        400);
+        var backgroundOneAssist = paper.image('pics/mario-bc.png', 600, 0,
+        600, 400);
+
+        spriteImage.onload = function () {
+            ctx.drawImage(spriteImage, start, 376, picWidth, 40, 0, 0,
+            70,
+            70);
+        }
+
+        var animatebackgroundOne =
+        Raphael.animation({ x: -600 }, 10000).repeat(Infinity);
+        var animatebackgroundTwo =
+        Raphael.animation({ x: -600 }, 20000).repeat(Infinity);
+        var animatebackgroundThree =
+        Raphael.animation({ x: 0 }, 10000).repeat(Infinity);
+
+        backgroundTwo.animate(animatebackgroundTwo);
+        backgroundOne.animate(animatebackgroundOne);
+        backgroundOneAssist.animate(animatebackgroundThree.delay(10000));
+
+        var start = setInterval(function () {
+
+            ctx.drawImage(spriteImage, start, 376, picWidth, 40, 0, 0,
+            70,
+            70);
+
+            position++;
+            if (position == startPositionCollection.length) {
+                position = 0;
+            }
+            start = startPositionCollection[position];
+            picWidth = picWidthCollection[position];
+
+        }, 200);
+    </script>
+</body>
+</html>

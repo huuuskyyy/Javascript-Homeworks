@@ -1,0 +1,84 @@
+﻿input {
+    font-size: 40px;
+    width: 120px;
+    padding: 10px;
+    border: 5px solid #B4EDA8;
+    color: #74DBE8;
+}
+
+#checker {
+    margin-left: 10px;
+    background-color: #5DE36F;
+    color: #2B75D6;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#answer {
+    background-color: #D0D62B;
+    color: #D6502B;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#newGame {
+    background-color: #30A9E6;
+    color: #A7F705;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#aside-buttons {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+span {
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a {
+    color: #057EF7;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#playfield {
+    display: inline-block;
+    position: absolute;
+    margin-top: 100px;
+}
+
+#bull-pic {
+    margin-left: 350px;
+}
+
+#display {
+    display: inline-block;
+    width: 400px;
+    margin-left: -750px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+#scoreboard {
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: -250px;
+    font-size:30px;
+    font-family:Andalus;
+    overflow:auto;
+}
+
+img {
+    width: 350px;
+    height: 300px;
+}
+h1 {
+display:inline-block;
+position:absolute;
+margin-left:100px;
+}

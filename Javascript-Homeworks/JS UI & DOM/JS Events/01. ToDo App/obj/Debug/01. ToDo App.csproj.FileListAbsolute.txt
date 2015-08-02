@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JS Events\01. ToDo App\bin\_01.ToDo_App.dll.config
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JS Events\01. ToDo App\bin\_01.ToDo_App.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JS Events\01. ToDo App\bin\_01.ToDo_App.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JS Events\01. ToDo App\obj\Debug\01. ToDo App.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JS Events\01. ToDo App\obj\Debug\_01.ToDo_App.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\JS UI & DOM\JS Events\01. ToDo App\obj\Debug\_01.ToDo_App.pdb

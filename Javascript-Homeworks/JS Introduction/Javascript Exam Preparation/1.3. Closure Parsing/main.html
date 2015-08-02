@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Read number</title>
+</head>
+<body>
+    <div id="js-console"></div>
+    <br />
+    <script src="js-console.js"></script>
+    <script>
+        function Solve(params) {
+
+            var answer = 0,
+                positionDividedZero = 0,
+                functionsCollection = [],
+                start,
+                end,
+                currentString,
+                i;
+
+            for (var position in params) {
+
+                positionDividedZero++;
+
+                start = params[position].lastIndexOf('(');
+                end = params[position].indexOf(")");
+                if (start !== 0) {
+
+                    currentString = params[position].substring(start + 1, end);
+                    currentString = currentString.trim();
+                    currentString = currentString.split(/\s+/g);
+                    answer = calculateExpression(currentString, functionsCollection);
+
+                    if (isNaN(answer)) {
+                        answer += positionDividedZero;
+                        break;
+                    }
+
+                    params[position] = params[position].substring(1, start) + " " + answer + " " + params[position].substring(end + 1, params[position].length - 1);
+
+                }
+
+                currentString = params[position];
+
+                if (currentString[0] == '(') {
+
+                    currentString = currentString.substring(1, currentString.length - 1);
+                }
+
+                currentString = currentString.trim();
+                currentString = currentString.split(/\s+/g);
+
+                if (currentString[0] == 'def') {
+
+                    if (isNaN(currentString[2])) {
+                        functionsCollection[currentString[1]] = functionsCollection[currentString[2]];
+                    } else {
+                        functionsCollection[currentString[1]] = currentString[2];
+                    }
+                } else {
+                    answer = calculateExpression(currentString, functionsCollection);
+
+                    if (isNaN(answer)) {
+                        answer += positionDividedZero;
+                        break;
+                    }
+                }
+            }
+
+            return answer;
+
+            function calculateExpression(arrayExpression, functions) {
+
+                var operator = arrayExpression[0];
+                var result;
+
+                switch (operator) {
+                    case "-": result = calculateMinus(arrayExpression, functions); break;
+                    case "+": result = calculatePlus(arrayExpression, functions); break;
+                    case "*": result = calculateMultiply(arrayExpression, functions); break;
+                    case "/": result = calculateDivide(arrayExpression, functions); break;
+                }
+                return result;
+            }
+
+            function calculateMinus(arrayExpression, functions) {
+
+                var calculatedExpression;
+
+                if (isNaN(parseInt(arrayExpression[1]))) {
+
+                    calculatedExpression = parseInt(functions[arrayExpression[1]]);
+                } else {
+                    calculatedExpression = parseInt(arrayExpression[1]);
+                }
+
+                for (var i = 2; i < arrayExpression.length; i++) {
+
+                    if (isNaN(parseInt(arrayExpression[i]))) {
+
+                        calculatedExpression -= parseInt(functions[arrayExpression[i]]);
+                    } else {
+                        calculatedExpression -= parseInt(arrayExpression[i]);
+                    }
+
+                }
+
+                return calculatedExpression;
+            }
+
+            function calculatePlus(arrayExpression, functions) {
+
+                var calculatedExpression;
+
+                if (isNaN(parseInt(arrayExpression[1]))) {
+
+                    calculatedExpression = parseInt(functions[arrayExpression[1]]);
+                } else {
+                    calculatedExpression = parseInt(arrayExpression[1]);
+                }
+
+                for (var i = 2; i < arrayExpression.length; i++) {
+
+                    if (isNaN(parseInt(arrayExpression[i]))) {
+
+                        calculatedExpression += parseInt(functions[arrayExpression[i]]);
+                    } else {
+                        calculatedExpression += parseInt(arrayExpression[i]);
+                    }
+
+                }
+                return calculatedExpression;
+            }
+
+            function calculateMultiply(arrayExpression, functions) {
+
+
+                var calculatedExpression;
+
+                if (isNaN(parseInt(arrayExpression[1]))) {
+
+                    calculatedExpression = parseInt(functions[arrayExpression[1]]);
+                } else {
+                    calculatedExpression = parseInt(arrayExpression[1]);
+                }
+
+                for (var i = 2; i < arrayExpression.length; i++) {
+
+                    if (isNaN(parseInt(arrayExpression[i]))) {
+
+                        calculatedExpression *= parseInt(functions[arrayExpression[i]]);
+                    } else {
+                        calculatedExpression *= parseInt(arrayExpression[i]);
+                    }
+
+                }
+                return calculatedExpression;
+            }
+
+            function calculateDivide(arrayExpression, functions) {
+
+                var calculatedExpression;
+
+                if (isNaN(parseInt(arrayExpression[1]))) {
+
+                    calculatedExpression = parseInt(functions[arrayExpression[1]]);
+                } else {
+                    calculatedExpression = parseInt(arrayExpression[1]);
+                }
+
+                for (var i = 2; i < arrayExpression.length; i++) {
+
+                    if (isNaN(parseInt(arrayExpression[i]))) {
+                        calculatedExpression = parseInt(calculatedExpression / (parseInt(functions[arrayExpression[i]])));
+                    } else {
+                        calculatedExpression = parseInt(calculatedExpression / (parseInt(arrayExpression[i])));
+                    }
+
+                    if (calculatedExpression == 'Infinity' || calculatedExpression == '-Infinity' || isNaN(calculatedExpression)) {
+                        
+                        calculatedExpression = 'Division by zero! At Line:';
+                        break;
+                    }
+                }
+                return calculatedExpression;
+            }
+        }
+    </script>
+</body>
+</html>
+

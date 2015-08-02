@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Planar coordinate system", "01. Planar coordinate system\01. Planar coordinate system.csproj", "{70A36043-0FE5-4CBF-A043-31678BD89BF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Remove all elements", "02. Remove all elements\02. Remove all elements.csproj", "{961C3DB4-2271-42FA-A73B-9CEC360F500F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Deep copy object", "03. Deep copy object\03. Deep copy object.csproj", "{656FB42A-4492-4C72-BE72-ECE1B90EB52B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Check contains property", "04. Check contains property\04. Check contains property.csproj", "{B83A3DF0-959A-4646-AD6F-3D48A7EE8B19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Find youngest", "05. Find youngest\05. Find youngest.csproj", "{F1A2203F-3FFC-4DC7-BA71-94E4A582C0D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Group people", "06. Group people\06. Group people.csproj", "{81C0DA1F-2269-4CC3-8674-5444D8C7FDD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70A36043-0FE5-4CBF-A043-31678BD89BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A36043-0FE5-4CBF-A043-31678BD89BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A36043-0FE5-4CBF-A043-31678BD89BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A36043-0FE5-4CBF-A043-31678BD89BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961C3DB4-2271-42FA-A73B-9CEC360F500F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961C3DB4-2271-42FA-A73B-9CEC360F500F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961C3DB4-2271-42FA-A73B-9CEC360F500F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961C3DB4-2271-42FA-A73B-9CEC360F500F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656FB42A-4492-4C72-BE72-ECE1B90EB52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656FB42A-4492-4C72-BE72-ECE1B90EB52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656FB42A-4492-4C72-BE72-ECE1B90EB52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656FB42A-4492-4C72-BE72-ECE1B90EB52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83A3DF0-959A-4646-AD6F-3D48A7EE8B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83A3DF0-959A-4646-AD6F-3D48A7EE8B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83A3DF0-959A-4646-AD6F-3D48A7EE8B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83A3DF0-959A-4646-AD6F-3D48A7EE8B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1A2203F-3FFC-4DC7-BA71-94E4A582C0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A2203F-3FFC-4DC7-BA71-94E4A582C0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A2203F-3FFC-4DC7-BA71-94E4A582C0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A2203F-3FFC-4DC7-BA71-94E4A582C0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C0DA1F-2269-4CC3-8674-5444D8C7FDD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C0DA1F-2269-4CC3-8674-5444D8C7FDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C0DA1F-2269-4CC3-8674-5444D8C7FDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C0DA1F-2269-4CC3-8674-5444D8C7FDD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

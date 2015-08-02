@@ -1,0 +1,61 @@
+﻿<!--Write a program that finds the index of given element in a sorted array of integers 
+by using the binary search algorithm (find it in Wikipedia).-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Binary search</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <p>
+        You have the array var arr =
+[0,2,6,7,11,17,22,24,35,44,55,76,81,82,99,111];
+    </p>
+    <p>
+        Enter a digit from the array and you will get back its index in the
+array
+    </p>
+    <br>
+    <label for="input"></label>
+    <input type="text" id="input" />
+    <button onclick="GetIndex()">Get index</button>
+    <div id="js-console"></div>
+    <br />
+    <script src="js-console.js"></script>
+    <script>
+        function GetIndex()
+        {
+            var arr = [0, 2, 6, 7, 11, 17, 22, 24, 35, 44, 55, 76, 81, 82, 99, 111],
+                digit = jsConsole.readFloat("#input"),
+                position = arr.length / 2 | 0,
+                previousPosition = 0,
+                found = false,
+                i;
+
+            for(i = 0, length = arr.length; i < length; i++)
+            {
+                if(digit>arr[position]){
+                    previousPosition = position;
+                    position +=(arr.length - position)/2 | 0;
+                } else if(digit<arr[position]){
+                    if(position === 1 && arr[0] === digit) {
+                        position = 0;
+                        found = true;
+                        break;
+                    }
+                    position-=(position - previousPosition)/2 | 0;
+                } else {
+                    found = true;
+                    break;
+                }
+            }
+
+            if(found){
+                jsConsole.writeLine("The number has index "+position+" in the array");
+            } else{
+                jsConsole.writeLine("No such element in the array");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\04. Check third digit\bin\_04.Check_third_digit.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\04. Check third digit\bin\_04.Check_third_digit.pdb
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\04. Check third digit\obj\Debug\_04.Check_third_digit.dll
+C:\Users\Angel\Documents\Visual Studio 2012\Projects\Javascript\Operators and expressions\04. Check third digit\obj\Debug\_04.Check_third_digit.pdb
