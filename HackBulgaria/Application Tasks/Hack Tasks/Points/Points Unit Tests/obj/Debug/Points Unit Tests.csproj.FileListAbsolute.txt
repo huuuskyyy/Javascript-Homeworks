@@ -1,0 +1,7 @@
+E:\Development\Projects\Hack Tasks\Hack Tasks\Points\Points Unit Tests\bin\Debug\Points Unit Tests.dll
+E:\Development\Projects\Hack Tasks\Hack Tasks\Points\Points Unit Tests\bin\Debug\Points Unit Tests.pdb
+E:\Development\Projects\Hack Tasks\Hack Tasks\Points\Points Unit Tests\bin\Debug\Points.exe
+E:\Development\Projects\Hack Tasks\Hack Tasks\Points\Points Unit Tests\bin\Debug\Points.pdb
+E:\Development\Projects\Hack Tasks\Hack Tasks\Points\Points Unit Tests\obj\Debug\Points Unit Tests.csprojResolveAssemblyReference.cache
+E:\Development\Projects\Hack Tasks\Hack Tasks\Points\Points Unit Tests\obj\Debug\Points Unit Tests.dll
+E:\Development\Projects\Hack Tasks\Hack Tasks\Points\Points Unit Tests\obj\Debug\Points Unit Tests.pdb

@@ -1,0 +1,7 @@
+E:\Development\Projects\Hack Tasks\Hack Tasks\Words\Words Unit Tests\bin\Debug\Words Unit Tests.dll
+E:\Development\Projects\Hack Tasks\Hack Tasks\Words\Words Unit Tests\bin\Debug\Words Unit Tests.pdb
+E:\Development\Projects\Hack Tasks\Hack Tasks\Words\Words Unit Tests\bin\Debug\Words.exe
+E:\Development\Projects\Hack Tasks\Hack Tasks\Words\Words Unit Tests\bin\Debug\Words.pdb
+E:\Development\Projects\Hack Tasks\Hack Tasks\Words\Words Unit Tests\obj\Debug\Words Unit Tests.csprojResolveAssemblyReference.cache
+E:\Development\Projects\Hack Tasks\Hack Tasks\Words\Words Unit Tests\obj\Debug\Words Unit Tests.dll
+E:\Development\Projects\Hack Tasks\Hack Tasks\Words\Words Unit Tests\obj\Debug\Words Unit Tests.pdb

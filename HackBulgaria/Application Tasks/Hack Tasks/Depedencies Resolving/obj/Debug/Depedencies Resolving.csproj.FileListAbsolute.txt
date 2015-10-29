@@ -1,0 +1,6 @@
+E:\Development\Projects\Hack Tasks\Hack Tasks\Depedencies Resolving\obj\Debug\Depedencies Resolving.csprojResolveAssemblyReference.cache
+E:\Development\Projects\Hack Tasks\Hack Tasks\Depedencies Resolving\bin\Debug\Depedencies Resolving.exe.config
+E:\Development\Projects\Hack Tasks\Hack Tasks\Depedencies Resolving\bin\Debug\Depedencies Resolving.exe
+E:\Development\Projects\Hack Tasks\Hack Tasks\Depedencies Resolving\bin\Debug\Depedencies Resolving.pdb
+E:\Development\Projects\Hack Tasks\Hack Tasks\Depedencies Resolving\obj\Debug\Depedencies Resolving.exe
+E:\Development\Projects\Hack Tasks\Hack Tasks\Depedencies Resolving\obj\Debug\Depedencies Resolving.pdb

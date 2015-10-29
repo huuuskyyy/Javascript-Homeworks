@@ -1,0 +1,6 @@
+E:\Development\Projects\Hack Tasks\Hack Tasks\Words\bin\Debug\Words.exe.config
+E:\Development\Projects\Hack Tasks\Hack Tasks\Words\bin\Debug\Words.exe
+E:\Development\Projects\Hack Tasks\Hack Tasks\Words\bin\Debug\Words.pdb
+E:\Development\Projects\Hack Tasks\Hack Tasks\Words\obj\Debug\Words.csprojResolveAssemblyReference.cache
+E:\Development\Projects\Hack Tasks\Hack Tasks\Words\obj\Debug\Words.exe
+E:\Development\Projects\Hack Tasks\Hack Tasks\Words\obj\Debug\Words.pdb

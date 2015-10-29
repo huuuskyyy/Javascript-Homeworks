@@ -1,0 +1,7 @@
+E:\Development\Projects\Hack Tasks\Hack Tasks\Depedencies Resolving\Dependency Resolving Unit Tests\obj\Debug\Dependency Resolving Unit Tests.csprojResolveAssemblyReference.cache
+E:\Development\Projects\Hack Tasks\Hack Tasks\Depedencies Resolving\Dependency Resolving Unit Tests\bin\Debug\Dependency Resolving Unit Tests.dll
+E:\Development\Projects\Hack Tasks\Hack Tasks\Depedencies Resolving\Dependency Resolving Unit Tests\bin\Debug\Dependency Resolving Unit Tests.pdb
+E:\Development\Projects\Hack Tasks\Hack Tasks\Depedencies Resolving\Dependency Resolving Unit Tests\bin\Debug\Depedencies Resolving.exe
+E:\Development\Projects\Hack Tasks\Hack Tasks\Depedencies Resolving\Dependency Resolving Unit Tests\bin\Debug\Depedencies Resolving.pdb
+E:\Development\Projects\Hack Tasks\Hack Tasks\Depedencies Resolving\Dependency Resolving Unit Tests\obj\Debug\Dependency Resolving Unit Tests.dll
+E:\Development\Projects\Hack Tasks\Hack Tasks\Depedencies Resolving\Dependency Resolving Unit Tests\obj\Debug\Dependency Resolving Unit Tests.pdb

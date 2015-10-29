@@ -1,0 +1,6 @@
+E:\Development\Projects\Hack Tasks\Hack Tasks\Points\bin\Debug\Points.exe.config
+E:\Development\Projects\Hack Tasks\Hack Tasks\Points\bin\Debug\Points.exe
+E:\Development\Projects\Hack Tasks\Hack Tasks\Points\bin\Debug\Points.pdb
+E:\Development\Projects\Hack Tasks\Hack Tasks\Points\obj\Debug\Points.csprojResolveAssemblyReference.cache
+E:\Development\Projects\Hack Tasks\Hack Tasks\Points\obj\Debug\Points.exe
+E:\Development\Projects\Hack Tasks\Hack Tasks\Points\obj\Debug\Points.pdb

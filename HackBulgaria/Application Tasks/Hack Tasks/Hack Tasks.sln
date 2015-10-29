@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Words", "Words\Words.csproj", "{6846AFFB-EA24-4324-9C3D-B3A2FA17C697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Depedencies Resolving", "Depedencies Resolving\Depedencies Resolving.csproj", "{E6F8ECCF-B63D-4636-A7C5-179EE3E12FEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Points", "Points\Points.csproj", "{C4267CE1-4A2F-438D-AA56-23EFFC447AC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Points Unit Tests", "Points\Points Unit Tests\Points Unit Tests.csproj", "{92FA4537-CB22-453B-88D0-1B76CE8D63C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Words Unit Tests", "Words\Words Unit Tests\Words Unit Tests.csproj", "{6F0FCC33-1EE5-4B8F-8390-071A80D57353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency Resolving Unit Tests", "Depedencies Resolving\Dependency Resolving Unit Tests\Dependency Resolving Unit Tests.csproj", "{9EF8E0D8-9626-4CD8-9781-0E5EF4E32431}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6846AFFB-EA24-4324-9C3D-B3A2FA17C697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6846AFFB-EA24-4324-9C3D-B3A2FA17C697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6846AFFB-EA24-4324-9C3D-B3A2FA17C697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6846AFFB-EA24-4324-9C3D-B3A2FA17C697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6F8ECCF-B63D-4636-A7C5-179EE3E12FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F8ECCF-B63D-4636-A7C5-179EE3E12FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F8ECCF-B63D-4636-A7C5-179EE3E12FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F8ECCF-B63D-4636-A7C5-179EE3E12FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4267CE1-4A2F-438D-AA56-23EFFC447AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4267CE1-4A2F-438D-AA56-23EFFC447AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4267CE1-4A2F-438D-AA56-23EFFC447AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4267CE1-4A2F-438D-AA56-23EFFC447AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92FA4537-CB22-453B-88D0-1B76CE8D63C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FA4537-CB22-453B-88D0-1B76CE8D63C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FA4537-CB22-453B-88D0-1B76CE8D63C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FA4537-CB22-453B-88D0-1B76CE8D63C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F0FCC33-1EE5-4B8F-8390-071A80D57353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0FCC33-1EE5-4B8F-8390-071A80D57353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0FCC33-1EE5-4B8F-8390-071A80D57353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0FCC33-1EE5-4B8F-8390-071A80D57353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF8E0D8-9626-4CD8-9781-0E5EF4E32431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF8E0D8-9626-4CD8-9781-0E5EF4E32431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF8E0D8-9626-4CD8-9781-0E5EF4E32431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF8E0D8-9626-4CD8-9781-0E5EF4E32431}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
